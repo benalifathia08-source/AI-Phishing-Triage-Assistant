@@ -1,0 +1,30 @@
+# Exact versions to install (Python 3.12). Recreate the environment with:
+#   python -m venv .venv && .venv\Scripts\pip install -r requirements-lock.txt && .venv\Scripts\pip install -e . --no-deps
+# M7 (rules-v1.1) was measured with the versions listed in docs/M7_RESULTS.md. After M7 (2026-10-22), two
+# security updates: pillow 12.3.0 -> 13.0.0 and certifi 2026.7.22 -> 2026.10.19. The behaviour fingerprint on
+# fresh facts is unchanged (2ed349b15a66dae8): no development verdict, score or finding changed.
+certifi==2026.10.19
+cffi==2.1.1
+charset-normalizer==3.5.2
+colorama==0.4.6
+cryptography==50.0.2
+dkimpy==1.1.8
+dnspython==2.8.0
+filelock==4.0.12
+idna==3.20
+iniconfig==2.3.1
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+packaging==26.3
+pillow==13.0.0
+pluggy==1.6.0
+pycparser==3.0
+Pygments==2.21.0
+pypdfium2==5.14.0
+pytest==9.1.1
+qrcode==8.2
+requests==2.34.2
+requests-file==3.0.1
+tldextract==5.4.0
+truststore==0.10.4
+urllib3==2.8.0

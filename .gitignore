@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+.venv/
+.venv-tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Email samples are untrusted and may contain personal data: never commit them.
+# The only .eml files in the repo are the fake test fixtures we write ourselves.
+samples/
+*.eml
+!tests/fixtures/**/*.eml
+
+# Lookup cache and daily quota counters
+.cache/
+

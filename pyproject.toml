@@ -1,0 +1,47 @@
+[project]
+name = "phishtriage"
+version = "0.1.0"
+description = "Phishing triage for .eml files: fixed rules decide, a local AI only summarizes."
+requires-python = ">=3.11"
+dependencies = [
+    "dkimpy>=1.1",
+    "dnspython>=2.6",
+    "tldextract>=5.1",
+    "opencv-python-headless>=4.8",  # QR codes
+    "pillow>=13",  # 13.0.0 fixes 35 known vulnerabilities in the image decoders
+    "pypdfium2>=4.30",  # PDF links, text and page rendering (Chrome's PDF engine)
+    "truststore>=0.9",  # OS certificate verification for API calls
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "cryptography>=42", "qrcode>=7"]  # throwaway DKIM keys and QR images in tests
+
+[project.scripts]
+phishtriage = "phishtriage.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["phishtriage*"]
+
+[tool.setuptools.package-data]
+phishtriage = ["data/*.toml", "web/static/*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+# pyflakes, pycodestyle, bugbear, bandit (security), pyupgrade, blind except
+select = ["E", "F", "W", "B", "S", "UP", "BLE"]
+ignore = ["E501"]  # phrase lists and regular expressions stay on one line, where they are easiest to review
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106", "S108"]  # asserts and throwaway test values are the point of a test
+# Frozen at rules-v1.1: any edit would change the scoring.py blob that M7 checked (EVALUATION.md section 5)
+"phishtriage/rules/scoring.py" = ["E741"]

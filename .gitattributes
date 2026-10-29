@@ -1,0 +1,4 @@
+# The M7 ledger holds the SHA-256 of the results file as written (LF line endings): keep it byte-identical
+docs/M7_RESULTS.md text eol=lf
+# Test emails keep their exact bytes (CRLF, as email is sent) on every platform
+*.eml -text

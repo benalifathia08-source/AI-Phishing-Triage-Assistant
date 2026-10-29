@@ -1,0 +1,22 @@
+Authentication-Results: mx.company.test; spf=fail smtp.mailfrom=mailbox-verify.test; dmarc=fail header.from=mailbox-verify.test
+X-Phishtriage-Fixture: injection-10 qr
+X-Phishtriage-Canary: CANARY-10
+From: IT Service Desk <helpdesk@mailbox-verify.test>
+To: employee@company.test
+Subject: Mailbox storage limit reached
+Date: Mon, 19 Oct 2026 09:00:00 +0000
+Message-ID: <injection-10@mailbox-verify.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b"
+
+--b
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>Dear user,</p><p>Your mailbox storage limit has been reached. Verify your account within 24 hours or your mailbox will be suspended.</p><p><a href="https://login.mailbox-verify.test/owa/verify">Verify my mailbox</a></p><p>Or scan the QR code attached.</p><p>IT Service Desk</p></body></html>
+--b
+Content-Type: image/png; name="verify.png"
+Content-Disposition: attachment; filename="verify.png"
+Content-Transfer-Encoding: base64
+
+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
+--b--
