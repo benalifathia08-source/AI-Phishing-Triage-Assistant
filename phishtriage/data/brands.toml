@@ -1,0 +1,450 @@
+# Brands that phishing commonly impersonates, and the domains they really use.
+#
+#   name      how the brand appears in reports
+#   names     words that name the brand in a sender name or subject. Whole words,
+#             any case; ALL-CAPS names of 5 letters or less (UPS, BIAT) must match in capitals.
+#   domains   organizational domains the brand really sends from or links to
+#   keywords  words that, found inside SOMEONE ELSE's domain, suggest the brand
+#             (e.g. paypal-secure-login.com). Keep them distinctive: "post" or "bank" would
+#             match thousands of unrelated sites.
+#   whole_word true = keywords only count as a whole part of the domain (apple-id.com yes,
+#             pineapple.com no). Needed for brands named with ordinary words.
+#   verify    true = Fathia still has to confirm the domains are right
+#
+# Your own organization's domains go in PROTECTED_DOMAINS in .env, not here.
+
+# ---------- Global ----------
+
+[[brand]]
+name = "Microsoft"
+names = ["Microsoft", "Office 365", "Microsoft 365", "OneDrive", "SharePoint", "Microsoft Teams", "Outlook Team", "Hotmail"]
+domains = ["microsoft.com", "office.com", "office365.com", "outlook.com", "live.com", "hotmail.com", "msn.com",
+           "outlook.fr", "hotmail.fr", "live.fr", "hotmail.co.uk",
+           "sharepoint.com", "microsoftonline.com", "onedrive.com", "microsoft365.com", "microsoftonline-p.com",
+           "microsoftstore.com", "office.net", "windows.net", "azure.com"]
+keywords = ["microsoft", "office365", "microsoft365", "onedrive", "sharepoint", "outlook", "hotmail", "microsoftonline"]
+
+[[brand]]
+name = "Google"
+names = ["Google", "Gmail", "Google Drive", "Google Docs", "Google Workspace"]
+domains = ["google.com", "gmail.com", "googlemail.com", "youtube.com", "google.fr", "google.tn", "googleapis.com",
+           "googleusercontent.com", "gstatic.com", "googlesyndication.com", "googleadservices.com",
+           "googletagmanager.com", "google-analytics.com", "googlevideo.com", "share.google", "g.co"]
+keywords = ["google", "gmail", "googledrive", "googledocs"]
+
+[[brand]]
+name = "Apple"
+names = ["Apple", "iCloud", "Apple ID", "App Store", "Apple Support"]
+domains = ["apple.com", "icloud.com", "me.com", "mac.com"]
+keywords = ["apple", "icloud", "appleid"]
+whole_word = true
+
+[[brand]]
+name = "Amazon"
+names = ["Amazon", "Amazon Prime", "Prime Video"]
+domains = ["amazon.com", "amazon.fr", "amazon.de", "amazon.co.uk", "amazon.nl", "amazon.es", "amazon.it", "amazon.ca", "amazonaws.com",
+           "amazonses.com"]
+keywords = ["amazon"]
+whole_word = true  # amazonaws.com and amazonses.com are Amazon's cloud, used by everyone
+
+[[brand]]
+name = "PayPal"
+names = ["PayPal"]
+domains = ["paypal.com", "paypal.fr", "paypal.me", "paypalobjects.com"]
+keywords = ["paypal"]
+
+[[brand]]
+name = "Netflix"
+names = ["Netflix"]
+domains = ["netflix.com"]
+keywords = ["netflix"]
+
+[[brand]]
+name = "DHL"
+names = ["DHL", "DHL Express"]
+domains = ["dhl.com", "dhl.de", "dhl.fr", "dhl.nl"]
+keywords = ["dhl"]
+
+[[brand]]
+name = "FedEx"
+names = ["FedEx"]
+domains = ["fedex.com"]
+keywords = ["fedex"]
+
+[[brand]]
+name = "UPS"
+names = ["UPS"]
+domains = ["ups.com"]
+keywords = []  # "ups" is part of pop-ups, sign-ups, start-ups...
+
+[[brand]]
+name = "LinkedIn"
+names = ["LinkedIn"]
+domains = ["linkedin.com", "lnkd.in", "linkedinmobileapp.com"]
+keywords = ["linkedin"]
+
+[[brand]]
+name = "Meta"
+names = ["Facebook", "Meta", "Instagram", "WhatsApp"]
+domains = ["facebook.com", "facebookmail.com", "fb.com", "meta.com", "instagram.com", "whatsapp.com",
+           "facebook.net", "cdninstagram.com", "whatsapp.net"]
+keywords = ["facebook", "instagram", "whatsapp", "metabusiness"]
+
+[[brand]]
+name = "Adobe"
+names = ["Adobe", "Adobe Sign", "Adobe Acrobat"]
+domains = ["adobe.com", "adobesign.com", "echosign.com"]
+keywords = ["adobe"]
+
+[[brand]]
+name = "DocuSign"
+names = ["DocuSign"]
+domains = ["docusign.com", "docusign.net"]
+keywords = ["docusign"]
+
+[[brand]]
+name = "Dropbox"
+names = ["Dropbox"]
+domains = ["dropbox.com", "dropboxmail.com", "dropboxusercontent.com", "dropboxstatic.com"]
+keywords = ["dropbox"]
+
+[[brand]]
+name = "Zoom"
+names = ["Zoom"]
+domains = ["zoom.us", "zoom.com"]
+keywords = ["zoomus"]
+
+[[brand]]
+name = "Booking.com"
+names = ["Booking.com"]
+domains = ["booking.com"]
+keywords = ["booking"]
+whole_word = true
+
+[[brand]]
+name = "Binance"
+names = ["Binance"]
+domains = ["binance.com"]
+keywords = ["binance"]
+
+[[brand]]
+name = "Coinbase"
+names = ["Coinbase"]
+domains = ["coinbase.com"]
+keywords = ["coinbase"]
+
+[[brand]]
+name = "MetaMask"
+names = ["MetaMask"]
+domains = ["metamask.io"]
+keywords = ["metamask"]
+
+[[brand]]
+name = "Norton"
+names = ["Norton", "Norton 360", "NortonLifeLock"]
+domains = ["norton.com", "nortonlifelock.com", "gen.digital"]
+keywords = ["norton"]
+whole_word = true
+
+[[brand]]
+name = "McAfee"
+names = ["McAfee"]
+domains = ["mcafee.com"]
+keywords = ["mcafee"]
+
+[[brand]]
+name = "Geek Squad"
+names = ["Geek Squad", "GeekSquad"]
+domains = ["bestbuy.com", "geeksquad.com"]
+keywords = ["geeksquad"]
+
+[[brand]]
+name = "Zalando"
+names = ["Zalando"]
+domains = ["zalando.com", "zalando.nl", "zalando.fr", "zalando.de", "zalando.be"]
+keywords = ["zalando"]
+
+[[brand]]
+name = "Western Union"
+names = ["Western Union"]
+domains = ["westernunion.com"]
+keywords = ["westernunion"]
+
+[[brand]]
+name = "Steam"
+names = ["Steam"]
+domains = ["steampowered.com", "steamcommunity.com"]
+keywords = ["steampowered", "steamcommunity"]
+
+# Crypto wallets and exchanges: among the most phished brands, and the lures promise money.
+[[brand]]
+name = "Ledger"
+names = ["Ledger", "Ledger Live"]
+domains = ["ledger.com"]
+keywords = ["ledger"]
+whole_word = true  # "ledger" is also an ordinary word
+
+[[brand]]
+name = "Trezor"
+names = ["Trezor"]
+domains = ["trezor.io"]
+keywords = ["trezor"]
+
+[[brand]]
+name = "Trust Wallet"
+names = ["Trust Wallet"]
+domains = ["trustwallet.com"]
+keywords = ["trustwallet"]
+
+[[brand]]
+name = "Exodus"
+names = ["Exodus Wallet", "Exodus"]
+domains = ["exodus.com"]
+keywords = ["exodus"]
+whole_word = true
+
+[[brand]]
+name = "Phantom"
+names = ["Phantom Wallet", "Phantom"]
+domains = ["phantom.app"]
+keywords = ["phantom"]
+whole_word = true
+
+[[brand]]
+name = "Kraken"
+names = ["Kraken"]
+domains = ["kraken.com"]
+keywords = ["kraken"]
+whole_word = true
+
+[[brand]]
+name = "Proton"
+names = ["Proton Mail", "ProtonMail", "Proton"]
+domains = ["proton.me", "protonmail.com", "proton.ch", "pm.me"]
+keywords = ["protonmail"]
+
+# ---------- France (French-language phishing reaches Tunisia too) ----------
+
+[[brand]]
+name = "La Poste (France)"
+names = ["La Poste", "Colissimo"]
+domains = ["laposte.fr", "laposte.net", "colissimo.fr"]
+keywords = ["laposte", "colissimo"]
+
+[[brand]]
+name = "Chronopost"
+names = ["Chronopost"]
+domains = ["chronopost.fr"]
+keywords = ["chronopost"]
+
+[[brand]]
+name = "Assurance Maladie (ameli)"
+names = ["Ameli", "Assurance Maladie"]
+domains = ["ameli.fr", "assurance-maladie.fr"]
+keywords = ["ameli"]
+
+[[brand]]
+name = "Impots.gouv"
+names = ["impots.gouv", "DGFiP", "Direction Générale des Finances Publiques"]
+domains = ["impots.gouv.fr", "dgfip.finances.gouv.fr"]
+keywords = ["impots", "dgfip"]
+
+[[brand]]
+name = "ANTAI"
+names = ["ANTAI"]
+domains = ["antai.gouv.fr"]
+keywords = ["antai"]
+
+[[brand]]
+name = "Orange"
+names = ["Orange"]
+domains = ["orange.fr", "orange.com", "orange.tn"]
+keywords = ["orange"]
+whole_word = true
+
+[[brand]]
+name = "Crédit Agricole"
+names = ["Crédit Agricole"]
+domains = ["credit-agricole.fr", "credit-agricole.com"]
+keywords = ["creditagricole", "credit-agricole"]
+
+[[brand]]
+name = "BNP Paribas"
+names = ["BNP Paribas", "BNP"]
+domains = ["bnpparibas.com", "bnpparibas.fr", "bnpparibas.net"]
+keywords = ["bnpparibas"]
+
+[[brand]]
+name = "Société Générale"
+names = ["Société Générale"]
+domains = ["societegenerale.fr", "societegenerale.com"]
+keywords = ["societegenerale"]
+
+# ---------- Tunisia (checked by Fathia on 2026-10-11 against official sources,
+#            including the Ministry of Finance list of banks) ----------
+
+[[brand]]
+name = "La Poste Tunisienne"
+names = ["La Poste Tunisienne", "Poste Tunisienne", "Rapid-Poste", "e-Dinar", "D17"]
+domains = ["poste.tn"]
+keywords = ["postetn", "poste-tn", "rapidposte", "edinar"]
+verify = false
+
+[[brand]]
+name = "Tunisie Telecom"
+names = ["Tunisie Telecom", "Tunisie Télécom"]
+domains = ["tunisietelecom.tn"]
+keywords = ["tunisietelecom"]
+verify = false
+
+[[brand]]
+name = "Ooredoo"
+names = ["Ooredoo"]
+domains = ["ooredoo.tn", "ooredoo.com"]
+keywords = ["ooredoo"]
+verify = true  # not checked yet
+
+[[brand]]
+name = "BIAT"
+names = ["BIAT"]
+domains = ["biat.com.tn"]
+keywords = ["biat"]
+verify = false
+
+[[brand]]
+name = "Attijari Bank"
+names = ["Attijari", "Attijari Bank", "Attijaribank"]
+domains = ["attijaribank.com.tn"]
+keywords = ["attijari"]
+verify = false
+
+[[brand]]
+name = "BNA"
+names = ["BNA", "Banque Nationale Agricole"]
+domains = ["bna.tn", "bna.com.tn"]
+keywords = ["bna"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "STB"
+names = ["STB", "Société Tunisienne de Banque"]
+domains = ["stb.com.tn"]
+keywords = ["stb"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "Amen Bank"
+names = ["Amen Bank"]
+domains = ["amenbank.com.tn"]
+keywords = ["amenbank"]
+verify = false
+
+[[brand]]
+name = "UIB"
+names = ["UIB", "Union Internationale de Banques"]
+domains = ["uib.com.tn"]
+keywords = ["uib"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "Banque Zitouna"
+names = ["Banque Zitouna", "Zitouna"]
+domains = ["banquezitouna.com"]
+keywords = ["zitouna"]
+verify = false
+
+[[brand]]
+name = "BH Bank"
+names = ["BH Bank", "Banque de l'Habitat"]
+domains = ["bh.com.tn"]
+keywords = ["bhbank"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "ATB"
+names = ["ATB", "Arab Tunisian Bank"]
+domains = ["atb.com.tn"]
+keywords = ["atb"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "Banque de Tunisie"
+names = ["Banque de Tunisie"]  # not "BT": too many other meanings
+domains = ["bt.com.tn"]
+keywords = ["banquedetunisie"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "QNB Tunisia"
+names = ["QNB", "QNB Tunisia", "QNB Tunisie"]
+domains = ["qnb.com.tn"]
+keywords = ["qnb"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "UBCI"
+names = ["UBCI", "Union Bancaire pour le Commerce et l'Industrie"]
+domains = ["ubcinet.net"]
+keywords = ["ubci", "ubcinet"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "CNAM"
+names = ["CNAM"]
+domains = ["cnam.nat.tn"]
+keywords = ["cnam"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "CNSS"
+names = ["CNSS"]
+domains = ["cnss.tn"]
+keywords = ["cnss"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "STEG"
+names = ["STEG"]
+domains = ["steg.com.tn"]
+keywords = ["steg"]
+whole_word = true
+verify = false
+
+[[brand]]
+name = "SONEDE"
+names = ["SONEDE"]
+domains = ["sonede.com.tn"]
+keywords = ["sonede"]
+verify = false
+
+[[brand]]
+name = "Tunisair"
+names = ["Tunisair"]
+domains = ["tunisair.com", "tunisair.com.tn"]
+keywords = ["tunisair"]
+verify = false
+
+# Jumia closed in Tunisia at the end of 2024. Kept in the list.
+[[brand]]
+name = "Jumia"
+names = ["Jumia"]
+domains = ["jumia.com.tn", "jumia.com"]
+keywords = ["jumia"]
+verify = false
+
+[[brand]]
+name = "Flouci"
+names = ["Flouci"]
+domains = ["flouci.com"]
+keywords = ["flouci"]
+verify = false

@@ -1,0 +1,76 @@
+/* Phishing triage, local web interface. System fonts only: the Content-Security-Policy allows nothing external.
+   There is deliberately no green: "No indicators found" is not "safe", so it is grey. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --text: #1d2330; --muted: #5b6474; --line: #dde1e8; --code-bg: #f0f2f5;
+  --accent: #2b5fd9; --malicious: #b42318; --malicious-bg: #fde8e7; --suspicious: #a15c00; --suspicious-bg: #fff1dc;
+  --low: #6b5a00; --low-bg: #fbf6d9; --none: #4a5262; --none-bg: #eceef2; --flag-bg: #eef1f6;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12151b; --panel: #1a1f27; --text: #e6e9ef; --muted: #9aa3b2; --line: #2c333e; --code-bg: #232a34;
+    --accent: #7ea2ff; --malicious: #ff8a80; --malicious-bg: #3a1c1b; --suspicious: #ffc266; --suspicious-bg: #3a2a12;
+    --low: #e6d36b; --low-bg: #33301a; --none: #b6bdca; --none-bg: #262c36; --flag-bg: #252c37;
+  }
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0; color: var(--text); background: var(--bg);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+header, footer { padding: 12px 24px; }
+header { display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+header .brand { font-weight: 650; color: var(--text); text-decoration: none; font-size: 17px; }
+header .where { color: var(--muted); font-size: 13px; }
+footer { color: var(--muted); font-size: 13px; max-width: 1180px; margin: 0 auto; }
+main { max-width: 1180px; margin: 0 auto; padding: 20px 24px 8px; }
+h1 { font-size: 22px; margin: 6px 0 4px; overflow-wrap: anywhere; }
+h2 { font-size: 17px; margin: 0 0 10px; }
+h3 { font-size: 15px; margin: 16px 0 6px; }
+section { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin: 0 0 16px; }
+a { color: var(--accent); }
+/* Email text can be one long unbroken word (a 457-word hidden-text sample was): it must wrap, not widen the page */
+p, li, q, blockquote, summary, h1, h2, h3, dd, td { overflow-wrap: anywhere; }
+code, pre, .hash { font-family: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace; font-size: 13px; }
+code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+pre { background: var(--code-bg); padding: 12px; border-radius: 8px; overflow: auto; max-height: 520px; white-space: pre-wrap; overflow-wrap: anywhere; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+th { color: var(--muted); font-weight: 600; font-size: 13px; white-space: nowrap; }
+td.rule code { white-space: nowrap; }
+td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.hash { font-size: 12px; max-width: 220px; }
+dl { display: grid; grid-template-columns: 150px 1fr; gap: 6px 16px; margin: 0; }
+dt { color: var(--muted); }
+dd { margin: 0; overflow-wrap: anywhere; }
+details > summary { cursor: pointer; color: var(--accent); margin: 8px 0; }
+section > details > summary { font-weight: 600; font-size: 17px; color: var(--text); margin: 0; }
+blockquote { margin: 8px 0; padding: 8px 14px; border-left: 4px solid var(--line); background: var(--code-bg); border-radius: 0 8px 8px 0; }
+.meta, .hint, .coverage { color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.coverage { margin-top: 10px; }
+.warn { color: var(--malicious); }
+.sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.badge { display: inline-block; padding: 4px 12px; border-radius: 999px; font-weight: 650; font-size: 14px; letter-spacing: .01em; }
+.verdict .badge { font-size: 16px; padding: 6px 16px; }
+.v-malicious { color: var(--malicious); background: var(--malicious-bg); }
+.v-suspicious { color: var(--suspicious); background: var(--suspicious-bg); }
+.v-low { color: var(--low); background: var(--low-bg); }
+.v-none { color: var(--none); background: var(--none-bg); }
+.v-failed { color: var(--malicious); background: var(--malicious-bg); outline: 1px dashed var(--malicious); }
+.flag { display: inline-block; font-size: 12px; padding: 1px 7px; margin: 1px 3px 1px 0; border-radius: 999px; background: var(--flag-bg); color: var(--muted); }
+.hidden-char { font-family: ui-monospace, Consolas, monospace; font-size: 11px; padding: 0 3px; margin: 0 1px; border: 1px solid var(--malicious); color: var(--malicious); border-radius: 3px; }
+.report-head .downloads { margin: 8px 0 0; }
+section.failed { border-color: var(--malicious); }
+form label { display: block; margin: 6px 0; }
+fieldset { border: 1px solid var(--line); border-radius: 8px; margin: 14px 0; padding: 8px 14px; }
+legend { color: var(--muted); padding: 0 6px; }
+input[type=file] { margin: 6px 0 4px; }
+button { font: inherit; padding: 8px 18px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
+button.secondary { background: transparent; color: var(--accent); margin-top: 12px; }
+main > form, main > h1 + form { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; }
+@media (max-width: 720px) {
+  main, header, footer { padding-left: 14px; padding-right: 14px; }
+  dl { grid-template-columns: 1fr; }
+  table { display: block; overflow-x: auto; }
+}

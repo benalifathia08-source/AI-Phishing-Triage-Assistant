@@ -1,0 +1,4502 @@
+[
+ {
+  "file": "phishing_pot/email/sample-43.eml",
+  "sha256": "f966aee8c6f2217373d802c63dc6459daa276c53640a0ad4d1917b4fd7e625d2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:your participation is needed",
+  "order": 43
+ },
+ {
+  "file": "phishing_pot/email/sample-171.eml",
+  "sha256": "aba0e5f5d3ebdf7c386f90ef7f9aa75c48b9fceec36694c46e7b196d0902a1fb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1283c5f4066c2a7815671452c08be5cbfc875b6b",
+  "order": 171
+ },
+ {
+  "file": "phishing_pot/email/sample-199.eml",
+  "sha256": "f87f009b599a087f8d94f2e1b9597177d034fe0053bdc5bcbd159d7af98bdd4e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fd3d2a25881306ad5d730ee9acb7d505e04c9f9e",
+  "order": 199
+ },
+ {
+  "file": "phishing_pot/email/sample-336.eml",
+  "sha256": "51a0e518db4dcdf72b32535c240560811cb7e6cb22e8d6f90b2caeaaf831176c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:eb4df73f70a4c3670c44e3a65b1fb394946b5472",
+  "order": 336
+ },
+ {
+  "file": "phishing_pot/email/sample-456.eml",
+  "sha256": "44051fa6ccd42e726facf4ae3f649be807983c61ee075d74423c0bca7458adb4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:voc\u00ea ganhou n\u00e3o perca essa chance",
+  "order": 456
+ },
+ {
+  "file": "phishing_pot/email/sample-535.eml",
+  "sha256": "6b9016e644abbb16de21a6acfa35218e0d5f3970ca063722a21d3e57f08199c1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7195f1a41d8ab6644e83e5038538bd960392cf27",
+  "order": 535
+ },
+ {
+  "file": "phishing_pot/email/sample-575.eml",
+  "sha256": "e0beeeca7db680043fae653e0bfec1e1a06fd685f6da71a5b58086bf97a1d8b8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:79e5cd4e31fc28bfcb20326de4f40bd378bcc1b4",
+  "order": 575
+ },
+ {
+  "file": "phishing_pot/email/sample-670.eml",
+  "sha256": "56fc1e31d5d839519e485f30bb1fba166c38d6a4ad8216d7e13cd6e9c55bd8ef",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:i am looking forward to chatting with you",
+  "order": 670
+ },
+ {
+  "file": "phishing_pot/email/sample-718.eml",
+  "sha256": "6bc4dfb616df866628bfe4c7e47259a5779cffcec267a22876de383fb642b98e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ef65868ff6696392ff003b5a85a148a267c9117e",
+  "order": 718
+ },
+ {
+  "file": "phishing_pot/email/sample-770.eml",
+  "sha256": "6d6dd812af9bbd7e6092ca191515236668c063c69ea10207cd1cda8942846ead",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:ol\u00e1 te mandei um e mail voc\u00ea recebeu",
+  "order": 770
+ },
+ {
+  "file": "phishing_pot/email/sample-846.eml",
+  "sha256": "4b3e7183760cf361fd3cff226a7118fe5ece05a21d2baa536a7474a8471e387a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:you have won an iphone pro",
+  "order": 846
+ },
+ {
+  "file": "phishing_pot/email/sample-867.eml",
+  "sha256": "e5f2b24cfb93685fb663c395c7be45e220861b3dea44bbd6a846f89a007e1999",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:36bc0ce4c45217507e02815c4d694b7c3c5a5f60",
+  "order": 867
+ },
+ {
+  "file": "phishing_pot/email/sample-925.eml",
+  "sha256": "b5a6fe319c0cfbdc107b9ff4c2956c54ed12f587e55d5ee13993a51570338844",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:a9eb6c4939463c84c174fede2266e50f523635b3",
+  "order": 925
+ },
+ {
+  "file": "phishing_pot/email/sample-945.eml",
+  "sha256": "10fa844b18c38bcb378e71be5e176288d1d71ed0a86f109ce290ba42b5fef9a6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:eb532f305b75b4e0b5edc7e1164b1069e1d4a613",
+  "order": 945
+ },
+ {
+  "file": "phishing_pot/email/sample-1099.eml",
+  "sha256": "bb14a5adc4beac0c1a865ad890ec1b1a1efcb1680697c378ffbb7f168fe4e8d5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:36bc0ce4c45217507e02815c4d694b7c3c5a5f60",
+  "order": 1099
+ },
+ {
+  "file": "phishing_pot/email/sample-1176.eml",
+  "sha256": "a819576cd8b66dc4b41ad502f02af09b7fd73cf6ba690b7372aad6cb481a9306",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f5a51723b0cc2b0eef7b6d873f66b7a07f3ff7f0",
+  "order": 1176
+ },
+ {
+  "file": "phishing_pot/email/sample-1388.eml",
+  "sha256": "2859cf547e4aba59c6fbcd68a8973574d61730313739aba55ac9752c3e277703",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:43e3a4313f79b36967332dbd741fadc5cfd5fb31",
+  "order": 1388
+ },
+ {
+  "file": "phishing_pot/email/sample-1504.eml",
+  "sha256": "53ac089575620a20972b723266bc07524705075b48897ca02a965dca5b8e9e28",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:832836ed29c43e0ab5652e3dd901ddf307a491e7",
+  "order": 1504
+ },
+ {
+  "file": "phishing_pot/email/sample-1567.eml",
+  "sha256": "2551b768347573bfcd93233b0b5c5951ca3d3764fe438e530f1855c82a735ab7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e069f18e75434c1caa9ed90b5893163721e44fb3",
+  "order": 1567
+ },
+ {
+  "file": "phishing_pot/email/sample-1757.eml",
+  "sha256": "27a801f6253f6fa663ba5e51d42e990afbfc4d4eb5121edadb1189a1fc60084e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e454738b65aecc47aac9bd48aec9498d9ad7300d",
+  "order": 1757
+ },
+ {
+  "file": "phishing_pot/email/sample-1814.eml",
+  "sha256": "a8f1270696536f2881251e96f69a41fb704c19fb23fb28b38cc8e96e2bb50a99",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:febf0573aabd2ed45702295176c2153ca17e2718",
+  "order": 1814
+ },
+ {
+  "file": "phishing_pot/email/sample-1838.eml",
+  "sha256": "486a19018b0db5475f621aca04d1f2e05e3c14b7d760ba735a71202a05763fbe",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:343380992eae84d262972ab714dc3bbbbbfba9ff",
+  "order": 1838
+ },
+ {
+  "file": "phishing_pot/email/sample-1847.eml",
+  "sha256": "d9769612cfd5b2de9a50f1d86a7715c6b6a879c9ca730b88138870f62dab7e86",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:4224d67108278c9bc105bc04f03d27c0e0457766",
+  "order": 1847
+ },
+ {
+  "file": "phishing_pot/email/sample-2192.eml",
+  "sha256": "f56972b1c0ed3e794f076c4100978b18da59a91dd26eda8db91facb6898bdcb5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:a0badc0af3978b914cd590301a57ad4765cf2208",
+  "order": 2192
+ },
+ {
+  "file": "phishing_pot/email/sample-2329.eml",
+  "sha256": "07a527a5f1a244dbc1be1182bd4d91a1c6006fcb96a5bb164354a1a46d192518",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:36bc0ce4c45217507e02815c4d694b7c3c5a5f60",
+  "order": 2329
+ },
+ {
+  "file": "phishing_pot/email/sample-2355.eml",
+  "sha256": "d2f1ff18a0c63e3bda2c52ac766fb50dbbbad725c9d32aab91acc7290d899640",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8c6dfcc8f4b01e8491618f94493a66e8a1372354",
+  "order": 2355
+ },
+ {
+  "file": "phishing_pot/email/sample-2524.eml",
+  "sha256": "37244850bbeae8861a1a310ed016e10aac76cf62f70c8a5958f4ab37be930322",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:consigue tus primeros meses gratis",
+  "order": 2524
+ },
+ {
+  "file": "phishing_pot/email/sample-2540.eml",
+  "sha256": "57aa3f2e4c33bacfb83ae4393175cd004a38ccca1d2c0b52cc6f5dbebac01229",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e3e5077892fc6522f795ce7b6f69d07a134f99e3",
+  "order": 2540
+ },
+ {
+  "file": "phishing_pot/email/sample-3164.eml",
+  "sha256": "aa1dae37b102a9184dc5807aabf13a1c2b4d27d6775ac3cc9a2ea488fc251d47",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6fddc9f49b4082ea097e947791ecf813ea09f4f8",
+  "order": 3164
+ },
+ {
+  "file": "phishing_pot/email/sample-3272.eml",
+  "sha256": "e72db522f74aff0a2c3e285a7b5970e7ca8f79d07cf29497bf37fcbdc24184de",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7e1296643b6b520263f8e2ae71353826144ffa42",
+  "order": 3272
+ },
+ {
+  "file": "phishing_pot/email/sample-3313.eml",
+  "sha256": "968fd9a496ea5670d56226130abcb3ba88b4af721d949b5a18d725ccbccbaffb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:45e614bf61670378092e137733f70113689ca78f",
+  "order": 3313
+ },
+ {
+  "file": "phishing_pot/email/sample-3502.eml",
+  "sha256": "7058cf090da312967a9400a0c1c3b124d61b937b639f0e898382da9ab244cbcb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:bdd9a3a3a82e32f921f8aa87342cb5770e288665",
+  "order": 3502
+ },
+ {
+  "file": "phishing_pot/email/sample-3612.eml",
+  "sha256": "b8083e6d7f11d4c4913c3510821cd07e8f00668fdd9583f56bcb087911012dd6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8eab752760d7df1b38ea4d5a3e12c07638d55b38",
+  "order": 3612
+ },
+ {
+  "file": "phishing_pot/email/sample-4061.eml",
+  "sha256": "52bb163bee0b9a394851a7d0183d8705a15831bf40ae4c41745a0fefa0d344f4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e33fbf4225be842c50db08d3c6f3d6d27c2d9cb7",
+  "order": 4061
+ },
+ {
+  "file": "phishing_pot/email/sample-4194.eml",
+  "sha256": "52d77740a29928ed0ac4a3b40dec890fc005729ae2409ec4bbecd76d4a018714",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fe7bcd125a5242d3eccca0485e2e3be9a521473c",
+  "order": 4194
+ },
+ {
+  "file": "phishing_pot/email/sample-4473.eml",
+  "sha256": "75d9690c90a2821cd40ec38acb3a5f28a75f5251410dc4f2c62ba32fcf59c9a5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3fb500da7f60ab99a91a4e84941b6b59c153a6ca",
+  "order": 4473
+ },
+ {
+  "file": "phishing_pot/email/sample-4534.eml",
+  "sha256": "0e12f1a336b1ceb10011dbb77ee21342a27a855685e1b5bb400bc6f6cd2c0084",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e425124f845aa0c28f53f2341d1e76034129d680",
+  "order": 4534
+ },
+ {
+  "file": "phishing_pot/email/sample-4789.eml",
+  "sha256": "57e38ee94fc8d13e0db2ce996dd9d99f141353eeee66ac92adf36f366f85cd3a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:95d24a73fe58277c630145a7e8ef6da73641bf9e",
+  "order": 4789
+ },
+ {
+  "file": "phishing_pot/email/sample-4866.eml",
+  "sha256": "1f6b2255a82cc30ade0440e958020814ff87d7871325efa2fceb1b3b25532a93",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2d8d07d56e484ed6edcd2b75001dafa7bb1f260c",
+  "order": 4866
+ },
+ {
+  "file": "phishing_pot/email/sample-5014.eml",
+  "sha256": "c853f61669523c27037e242bb10ddcbae3beb1eab9971eb47d957539fc3c40e2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:172a32f91287e2d6230f7d668476c8bfe84230fe",
+  "order": 5014
+ },
+ {
+  "file": "phishing_pot/email/sample-5096.eml",
+  "sha256": "d3a0358c6b58cb9d15eed58130b2aad1e2be8f48f880b313adac387c308672d1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:95d107ec752e18350fa00445b71ba642692d272e",
+  "order": 5096
+ },
+ {
+  "file": "phishing_pot/email/sample-5111.eml",
+  "sha256": "2ecb90b2d7723093cc7e87235bf16d9e3379d09435041226a72149395f9febef",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:cbf9f7e5d321d4b274f035e3d8a7ccfce367675d",
+  "order": 5111
+ },
+ {
+  "file": "phishing_pot/email/sample-5293.eml",
+  "sha256": "5457f1ed16119dd713315d6fc7e085c1fd3b927034ef8f768dfecf77769a15c3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:4c75075ddcd8e126a7c615209082bc894c94f367",
+  "order": 5293
+ },
+ {
+  "file": "phishing_pot/email/sample-5414.eml",
+  "sha256": "c85dd1465a5586ecc76df27793b01d4eda300dcd6f0090eef76439d8c0588c1e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8c5a685908eaa29e6bc0308c404f9caf1aeb16b5",
+  "order": 5414
+ },
+ {
+  "file": "phishing_pot/email/sample-5426.eml",
+  "sha256": "d35b806190020a773bd4b5ca39c2be16aa0bebc2728b60e3a153eb9c596ac24e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:95f88bf93121f3d72e4b1f0776d3930863a65c6a",
+  "order": 5426
+ },
+ {
+  "file": "phishing_pot/email/sample-5474.eml",
+  "sha256": "73d95613a6b1b9f387f23b47ae27852f6936c39bd99cb91a7daac5a22c1ac5f8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d342f48ebe2543d84269e339af7202afa8850b68",
+  "order": 5474
+ },
+ {
+  "file": "phishing_pot/email/sample-5537.eml",
+  "sha256": "b8cc65bf758d0eb37bdadea47a4bc11acdc546d1129bf5e2c92d7457f981cb89",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1ad4b4aabdf135ce0757b9b6ee554d59b919fb7b",
+  "order": 5537
+ },
+ {
+  "file": "phishing_pot/email/sample-5652.eml",
+  "sha256": "4b5d37a07868bfd36099e4ab264f6e6d811e9df450c7781f85a744fa6a568348",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:befa81b49b2c69e4745cad793187e70899159ccb",
+  "order": 5652
+ },
+ {
+  "file": "phishing_pot/email/sample-5691.eml",
+  "sha256": "0d5d2f7da43ace3deebfa71fda698bc2ddbfd6b1fa33c970f61d7abd43fe6b12",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ee195788bdd15bd76a2594cfeb3c64d4ed2c567f",
+  "order": 5691
+ },
+ {
+  "file": "phishing_pot/email/sample-5733.eml",
+  "sha256": "43c03cd93ea9fd6caac227d19650bfd8b805a0344f338c89c8ea27bad4a23ab6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b7fd42c15579ee9a78c32dd2ad33faf9064407e7",
+  "order": 5733
+ },
+ {
+  "file": "phishing_pot/email/sample-5735.eml",
+  "sha256": "d46e2265532d208497016e52a83510194461822a29cd9fab6f01e00c3f377e46",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e47d2e3269e155f6846113908f67a482d54b6058",
+  "order": 5735
+ },
+ {
+  "file": "phishing_pot/email/sample-5902.eml",
+  "sha256": "273c96e1edd6b75a1c9e83ee8d71ea245ffe90e926809b5111af26bf058348c8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:54c571be913e81abec7708e607124104ec5cbebe",
+  "order": 5902
+ },
+ {
+  "file": "phishing_pot/email/sample-6272.eml",
+  "sha256": "fa09cb09dd84e645b3bd5222b7a620c7a1c480b2fd39e20ba959bb9b35167988",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6d3490ea0b158e7368642e0bb785e0ba258920ee",
+  "order": 6272
+ },
+ {
+  "file": "phishing_pot/email/sample-6366.eml",
+  "sha256": "106392785e8ee331e4ccd493e803df33b53e5a1fc18d36c663dba3a8be0bd334",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:95e70a1f587166ef8ffd8d162c0b1c0ada827bf5",
+  "order": 6366
+ },
+ {
+  "file": "phishing_pot/email/sample-6617.eml",
+  "sha256": "3a39118bfeec1707cff997eae9a2f628fc16f7916a1ca0e52d46ecf53b2cb56f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:845c7da1ac0473161ee68029febf7ef45c58b62c",
+  "order": 6617
+ },
+ {
+  "file": "phishing_pot/email/sample-6618.eml",
+  "sha256": "4997684906e1565539a743b1130ab71312a16317af503b2c2383958cb09f34fd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:44b6b5d1f53819c68efe26d38f4b001486d8343c",
+  "order": 6618
+ },
+ {
+  "file": "phishing_pot/email/sample-6679.eml",
+  "sha256": "3a9d667c320aaa1b78ad087387e3314a9924498b4dc1dfa978b48132b4d462f1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 6679
+ },
+ {
+  "file": "phishing_pot/email/sample-6917.eml",
+  "sha256": "6f99f21abf341f434799bb3c8bca36ac5b70ac5b2d1c40ed4b60b976074539e9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:65a1fc5046e5b97242deb651d6c8b404e07c2760",
+  "order": 6917
+ },
+ {
+  "file": "phishing_pot/email/sample-6932.eml",
+  "sha256": "6c88e7201a2a110d7250998c069dfe4169928971e69d582b24f28f23473ef9ee",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:24eb114c54ce81caf5facfb3b2a290941158ad53",
+  "order": 6932
+ },
+ {
+  "file": "phishing_pot/email/sample-7050.eml",
+  "sha256": "db4121ccea7b6ea38c28f62624e3b6ea9237b6762cc20887ef46671f913b0cdf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7e1c778981d0e8e4734fc3a641ed3c36a76f2b08",
+  "order": 7050
+ },
+ {
+  "file": "phishing_pot/email/sample-7062.eml",
+  "sha256": "19e30d36afae7cee4d7728dea8f3cbe96e0e0c768161ee533f3dffae015b35b4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2b17019402bd457b7a3922eca47df17c59cf328c",
+  "order": 7062
+ },
+ {
+  "file": "phishing_pot/email/sample-7209.eml",
+  "sha256": "2af4e95ee218d9029c7e5d7e260073a678c4b0529cb17a5b60f3c21f2c5229c1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e19e01bf0915f7326c7c4841332563c3ac33ab66",
+  "order": 7209
+ },
+ {
+  "file": "phishing_pot/email/sample-7293.eml",
+  "sha256": "16b04cdb293ec10949d4846547c6bc9016a80417f187f154d3f52503a480b081",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9cefb91bea0e4d11490d9775df4b1760d19be25c",
+  "order": 7293
+ },
+ {
+  "file": "phishing_pot/email/sample-7330.eml",
+  "sha256": "546aacb29d35d3c35030343f487f5950eb3ed6cbd8255e1d1786d975bc774004",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7185ede9dfd7277723c53ab6008b7ea537b30759",
+  "order": 7330
+ },
+ {
+  "file": "phishing_pot/email/sample-7348.eml",
+  "sha256": "3b5227fc51755a888c96e1b22256027ee4ed28f6a74c574c4c1735d13bad4817",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9312c69333ace302dd60023d55701e05c3cfe1ce",
+  "order": 7348
+ },
+ {
+  "file": "phishing_pot/email/sample-7414.eml",
+  "sha256": "683462dc68c775f186bbaaea1f06507aec4a722cfc74f085ee572eead8aa0914",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3ac202a4fcde031526f1fcbb8814dd68e51de38d",
+  "order": 7414
+ },
+ {
+  "file": "phishing_pot/email/sample-7738.eml",
+  "sha256": "6f2b8a05cd198cba4431036b9b2482fbabbbb9f6706fc21563c50b05a2fa4eaa",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:74845a48b567bcf44b56b66ab3dda88edce3700d",
+  "order": 7738
+ },
+ {
+  "file": "phishing_pot/email/sample-7886.eml",
+  "sha256": "9088723b38824e62836718e004e6f58f3cffd76acfa307e751676e8619485356",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3ac202a4fcde031526f1fcbb8814dd68e51de38d",
+  "order": 7886
+ },
+ {
+  "file": "phishing_pot/email/sample-8085.eml",
+  "sha256": "cb585ccb8c2c8a3bea72017fe344f8770fede75e820bb8cfebc6127170b3caef",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:cffd36c185a2385fcc3e5b8bb93be774854047d4",
+  "order": 8085
+ },
+ {
+  "file": "phishing_pot/email/sample-8132.eml",
+  "sha256": "9c0ce6ee2a2a804c0c3dd85e52fd5add03a190c23e0f283df278b6a6b4ffb71f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:cd48f72973231e1e1b726ed00a9ea3d68f3f4e1d",
+  "order": 8132
+ },
+ {
+  "file": "phishing_pot/email/sample-8149.eml",
+  "sha256": "be7d484f105e2f3944628f3d8c6117eb6f45ff4d117ee42e806b6ee49dada497",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f92dd9a924569d96e60c402701fdf8951b1db237",
+  "order": 8149
+ },
+ {
+  "file": "phishing_pot/email/sample-8264.eml",
+  "sha256": "8267053e4c3b223e44653e055dddb7f1aa45affe24bb83c4895d5d7434c163eb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:85fc27c4c626ed4eba5b007fa94d4de4f763868e",
+  "order": 8264
+ },
+ {
+  "file": "phishing_pot/email/sample-8296.eml",
+  "sha256": "0568b118548f2f2ac584cbaf3141283c0fd6515ad432a8b07a5e1e1162d1dde4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:292a5cec670e122ae3d47e74c502092dc2927feb",
+  "order": 8296
+ },
+ {
+  "file": "phishing_pot/email/sample-8299.eml",
+  "sha256": "0b83d296cce8d5e1e22dcc8e2c61d880b4c87b824bba69a43a196d2e8c9aadff",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3f5ec28b02ee451e2d9b3b2461ef15e57e4c2095",
+  "order": 8299
+ },
+ {
+  "file": "phishing_pot/email/sample-8323.eml",
+  "sha256": "c3e89f79f446f41d929dfa74b6cecc9030b05d05478344bfeed2da5757ff2b95",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ed3582fcaf4560e0b367080ba397c9f9847d3871",
+  "order": 8323
+ },
+ {
+  "file": "phishing_pot/email/sample-8368.eml",
+  "sha256": "bb68f9de2c508039fc36575a574bf0ae3749e7cb76befafe9bef74f2a0420f82",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2c1449f022d9144b61e70c7dae8993a1cc9df7fa",
+  "order": 8368
+ },
+ {
+  "file": "phishing_pot/email/sample-8385.eml",
+  "sha256": "8ede1d64132fa703e4ca8b07d616b79920c8e417a0291d78e186cb71cd48949a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:425e57275d80be15abf829ba1ff4cff4250072b9",
+  "order": 8385
+ },
+ {
+  "file": "phishing_pot/email/sample-8436.eml",
+  "sha256": "06e083993c70045f4f0b9c0d21cdc6a067e9f86087a509ffcdd3e51eab508668",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:aten\u00e7\u00e3o voc\u00ea possui uma nota fiscal eletr\u00f4nica pende",
+  "order": 8436
+ },
+ {
+  "file": "phishing_pot/email/sample-8543.eml",
+  "sha256": "dde4d67971ab010988ac4760c1dc65485cfe47fe9a7638b2805b36b55f2847c6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:919bce9dd29fcf4246b38b07580d828ee90888be",
+  "order": 8543
+ },
+ {
+  "file": "phishing_pot/email/sample-8573.eml",
+  "sha256": "ed2091327330bc75b788ac7776a8c26a1e246e6c200c400340719c9b220d51b5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b8a37e7dd6fe84a30a72a161bd5a86d6f3a51f09",
+  "order": 8573
+ },
+ {
+  "file": "phishing_pot/email/sample-8624.eml",
+  "sha256": "6befff44d30c35d7fa74fd9b1f9986618c1477db84043f74ec234174ea023edd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b2088fbdb28254762e55c4ccb7ee6b7ac0a80a6c",
+  "order": 8624
+ },
+ {
+  "file": "phishing_pot/email/sample-8631.eml",
+  "sha256": "f7ed4623292c9cc15d1f5990455d489f2ab8b5619e37fbbf1e0999cb29e845dc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6ec4e5caac06157629d80630ed464872d7419271",
+  "order": 8631
+ },
+ {
+  "file": "phishing_pot/email/sample-9249.eml",
+  "sha256": "d48dc3408958f76d35d5b991b60514510c4adf272a360e795790e27018c6ee15",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9221e42169907c044e7d364961ed6d48d6358400",
+  "order": 9249
+ },
+ {
+  "file": "phishing_pot/email/sample-9311.eml",
+  "sha256": "ed6ff609088139917a2a74816a1ea9f335e4bfccdf77d3bff1456ed3355403ff",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7adda2314ea28d2756747e524db4c80d22f499e6",
+  "order": 9311
+ },
+ {
+  "file": "phishing_pot/email/sample-9439.eml",
+  "sha256": "d2cccd5753d0d44a218b2f55f2db757eda1b21a17297ececaa24f7c26b53d886",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:aviso de penalidade suspens\u00e3o de cnh em andamento re",
+  "order": 9439
+ },
+ {
+  "file": "phishing_pot/email/sample-9497.eml",
+  "sha256": "47bba1fed80a6e5cd5f36f4864543b23255940168f4776333d094805c6600e49",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:944e3dc26c14fd55fbb19a1293d78cea8e282ec8",
+  "order": 9497
+ },
+ {
+  "file": "phishing_pot/email/sample-9520.eml",
+  "sha256": "3c6f6d11cda5ea4a5c5ff500102c88f1838ba4eda1d572bfd22ed4a174f4a387",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:00ddd3f571d46d47992427b46366f1091378376a",
+  "order": 9520
+ },
+ {
+  "file": "phishing_pot/email/sample-9646.eml",
+  "sha256": "1ecde0c44529f9a698d52820e186f166707a45f0f4cb6547c8dfeb6b721475e9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b9e505ed860bab908159e901b00dc1340d3a95e2",
+  "order": 9646
+ },
+ {
+  "file": "phishing_pot/email/sample-9724.eml",
+  "sha256": "34985c1e69ba18507a704e2addabc66c93c3e7fe0e270ef95a516fa9eebebe3a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:26a76c4dcfb3286bf9a596b7b195603c71bdd0a7",
+  "order": 9724
+ },
+ {
+  "file": "phishing_pot/email/sample-9989.eml",
+  "sha256": "cb72034235ed7b0d596b05c99b44824eb13956819fecc997cf1cc7cefdb3278b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c4a366256bf548447fe786415252abda3166f5e0",
+  "order": 9989
+ },
+ {
+  "file": "phishing_pot/email/sample-10154.eml",
+  "sha256": "a7e65b0abe0234fd66805bef2874cb396c7d6ffff1d138d0029f36eec30ef595",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:13749653a84692b0ec444e99b1245ed23bf01c67",
+  "order": 10154
+ },
+ {
+  "file": "phishing_pot/email/sample-10296.eml",
+  "sha256": "54d00c17f21f31cd26a2ab070b356ed2219c872ea5ac36f1e198f51a3d5ad2fe",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7708b9416dcaa26a20712d603f0d82c61a65237e",
+  "order": 10296
+ },
+ {
+  "file": "phishing_pot/email/sample-10309.eml",
+  "sha256": "671d4be3724d2b4f225184fb23644c46403e0de4c2ff3e2e34e3cb775c6d70d7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e36b697e73aef0605a5c3d08d5d6852948efde52",
+  "order": 10309
+ },
+ {
+  "file": "phishing_pot/email/sample-10848.eml",
+  "sha256": "61782894c630df822131a71c83e64e129ebbc26f21694cdef38a18d56bef3b81",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:33ac37bccc7f65c85eafdfcaeab14a8bf3d0b61d",
+  "order": 10848
+ },
+ {
+  "file": "phishing_pot/email/sample-10850.eml",
+  "sha256": "4fd9dd7620e953902f6f94abb0b3e731d94b28a51b0d2ff547357cac356d9aa5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:33ac37bccc7f65c85eafdfcaeab14a8bf3d0b61d",
+  "order": 10850
+ },
+ {
+  "file": "phishing_pot/email/sample-10929.eml",
+  "sha256": "159373e784477ca9d485387257923719307f08c96c95ab65ebc86cb578b590f1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:36d75c2c421f79297c75712a1c3f5f94d0bbdc83",
+  "order": 10929
+ },
+ {
+  "file": "phishing_pot/email/sample-11189.eml",
+  "sha256": "8c8303b5f90a2fe3d40d28174aaeb9b92636af2d1c79c8d0828b20d98d6afe05",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d86a7dc887c4bdf173695530083f58ffc3a24bc9",
+  "order": 11189
+ },
+ {
+  "file": "phishing_pot/email/sample-11231.eml",
+  "sha256": "3772198c8ebccdf250658356ab70c57abdd11d90f0500141d8332032c929761f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:ihr omron x blutdruckmessger\u00e4t steht bereit",
+  "order": 11231
+ },
+ {
+  "file": "phishing_pot/email/sample-11441.eml",
+  "sha256": "6e1f338ae782980f37c8b34255f4a5935357eb5e0d0c096b8ec181fa1656db95",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:92b321b33b1e3bfeb140ce3e9ec59418c8ed031c",
+  "order": 11441
+ },
+ {
+  "file": "phishing_pot/email/sample-11572.eml",
+  "sha256": "add8754b76d52b178a05bbc027f552995c70b499cdcac99532d7da14230449a8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:4de519a6d9a7cc6a39073b3552f78ff553402986",
+  "order": 11572
+ },
+ {
+  "file": "phishing_pot/email/sample-11875.eml",
+  "sha256": "bbb09ac97a0971b078bbe150a3163dacf9292bdb97aea140523d2deba42a1a11",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6067da9bfc3d7f5fd27f08a3f5e98d96de85d9cd",
+  "order": 11875
+ },
+ {
+  "file": "phishing_pot/email/sample-11876.eml",
+  "sha256": "2d1caba0a8391f90dcf8e66e7801512bcc412261a23816ff045d96f4124d9b7b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6067da9bfc3d7f5fd27f08a3f5e98d96de85d9cd",
+  "order": 11876
+ },
+ {
+  "file": "phishing_pot/email/sample-11877.eml",
+  "sha256": "678239c23a1e7dad9700f475a641c60ee5da0f02a2a9436e1de0d5cddbc73411",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b18ba237a9eef4258a86c4c726ceb907b6bfa688",
+  "order": 11877
+ },
+ {
+  "file": "phishing_pot/email/sample-11878.eml",
+  "sha256": "83ae1ade72f98565419526cfdbd4d0c5ebb254a92ca2bc24d38af36cd9ae823a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ed12f6804c9af4483280c7b29f2d5467c6fa0194",
+  "order": 11878
+ },
+ {
+  "file": "phishing_pot/email/sample-11879.eml",
+  "sha256": "8bddf735585a8df483f49eede253863fb0fb4850258cfd8318013bc8703404fb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:85e0390f13f12e77a262e8dc3ae8877b636914b6",
+  "order": 11879
+ },
+ {
+  "file": "phishing_pot/email/sample-11880.eml",
+  "sha256": "55bc7b3c591c0500948830e89535de3306fac5c625653fbe9924eb2d7df70723",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c5e9fab4b413c6e78d4a8f215b5020272515cdb7",
+  "order": 11880
+ },
+ {
+  "file": "phishing_pot/email/sample-11881.eml",
+  "sha256": "a658120248cabcff15ea8ab5655dd54ed6e7db8b56eaf5c5b48e0a0790ff556d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c144ca2e6f9f8f43ad571ede551cbae34fca8600",
+  "order": 11881
+ },
+ {
+  "file": "phishing_pot/email/sample-11882.eml",
+  "sha256": "d339b15aa52ca51da7aa0cc0303fc40afc153424af9c7a93a88ddd778db1e7bf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f5191d3d47faea050a67ddba331ac2c0f4225fca",
+  "order": 11882
+ },
+ {
+  "file": "phishing_pot/email/sample-11883.eml",
+  "sha256": "8ee836e87ce46ad4513bb4c701d379938b30b39c7770ee164a292f3dbcd47acc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:52a86a5493691b6438dcc59f6d50c4f55e4bc15a",
+  "order": 11883
+ },
+ {
+  "file": "phishing_pot/email/sample-11884.eml",
+  "sha256": "894da760e6de43547ae601b393166a60b5cd71361507bc4cd5fe79a850805331",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:dcd107f1bde45e44cf5c8bc3be5efee3870b4ac6",
+  "order": 11884
+ },
+ {
+  "file": "phishing_pot/email/sample-11885.eml",
+  "sha256": "e75cfb011af3f55e24c803f246bc69f6eb27b13dd906be05b5b0df0700d62c5d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:dcd107f1bde45e44cf5c8bc3be5efee3870b4ac6",
+  "order": 11885
+ },
+ {
+  "file": "phishing_pot/email/sample-11886.eml",
+  "sha256": "e182cd663e20e36fcfa574cf17e13de59611d4ad4cc845b7e613d1d3a79c450c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:5ad1d26c2db89416c1bb9d588dfb0d0f85eb03e6",
+  "order": 11886
+ },
+ {
+  "file": "phishing_pot/email/sample-11887.eml",
+  "sha256": "5fb2dab804a518226ec1d68e5135fde494fb456afdf0e0840b086f415e89b133",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:5ad1d26c2db89416c1bb9d588dfb0d0f85eb03e6",
+  "order": 11887
+ },
+ {
+  "file": "phishing_pot/email/sample-11888.eml",
+  "sha256": "04d79aa0490d83e457a99b8733ab754729e4ee79a4acff0cd681e1e0fa2dd8b7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11888
+ },
+ {
+  "file": "phishing_pot/email/sample-11889.eml",
+  "sha256": "f2277c2e6f7c8196e8938acc67abe66081fd73c87332193492a639aeedd6e837",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11889
+ },
+ {
+  "file": "phishing_pot/email/sample-11890.eml",
+  "sha256": "94d99a0b3930635acfca40e8e4c6fc498ed85f1d19ad66dd6676541b9cb18d7b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11890
+ },
+ {
+  "file": "phishing_pot/email/sample-11891.eml",
+  "sha256": "35ccfa6a0a4419293b463e67915a227a85d5d75c17faade734ea1c05e7432ae4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11891
+ },
+ {
+  "file": "phishing_pot/email/sample-11892.eml",
+  "sha256": "8ca4fdb4801487274ad0618028868389248c9e53efe6b8313d0ef1d362486bb9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11892
+ },
+ {
+  "file": "phishing_pot/email/sample-11893.eml",
+  "sha256": "5bf5b0e30380a517d306c467cfecb5a8aa02d729c3a950e1d3ee44f48e6ef2ca",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11893
+ },
+ {
+  "file": "phishing_pot/email/sample-11894.eml",
+  "sha256": "ff21593b9fc0ce7a197a636d1e0d361c787c7abcb649ca0b7cfbf1ae4d667a3a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:840a0901b7f419c6c37985c4084587d063504d25",
+  "order": 11894
+ },
+ {
+  "file": "phishing_pot/email/sample-11895.eml",
+  "sha256": "774c545aeb11eda0a369bc0e3cdd793005b03b64390e9b05f003f18e6e15e8dd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ff6e338fb2b78a89b3a43a0bc37bfe1ad488de4d",
+  "order": 11895
+ },
+ {
+  "file": "phishing_pot/email/sample-11896.eml",
+  "sha256": "fca3a330d8efaebd4cfafa47a0943a2e41c3d52c8af97c04a02434b083d1e00e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ff6e338fb2b78a89b3a43a0bc37bfe1ad488de4d",
+  "order": 11896
+ },
+ {
+  "file": "phishing_pot/email/sample-11897.eml",
+  "sha256": "884a20ab12f6c261a4691fe16b9bcbfcfc723634b82d03405d794e0a185d1963",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:55340e6b6cc16629aa47868a5ba98cffb527fa6f",
+  "order": 11897
+ },
+ {
+  "file": "phishing_pot/email/sample-11898.eml",
+  "sha256": "754e7799edd23a6db0d676d8a20a3b147480e257b8628d25e6e3fc2ee28f246d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:be34d72ea7e1974f9c66de985a13fa6845079410",
+  "order": 11898
+ },
+ {
+  "file": "phishing_pot/email/sample-11899.eml",
+  "sha256": "6b34fb2b8a790be0694bf4d01e9a765468f5ee612ba28a4b1d02bc2a385901c5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:be34d72ea7e1974f9c66de985a13fa6845079410",
+  "order": 11899
+ },
+ {
+  "file": "phishing_pot/email/sample-11900.eml",
+  "sha256": "a821b2e97f3cfe14254809a8bd7f4f8c7d1aca5b59fe8a3350934f93da484eb7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:071701cb8d834e20afaafea25ae1c8fbf92ba98e",
+  "order": 11900
+ },
+ {
+  "file": "phishing_pot/email/sample-11901.eml",
+  "sha256": "841daed81fdb981229d9125348e75db1dfbc9a81a4fe18f3066847d9d7a238a9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:071701cb8d834e20afaafea25ae1c8fbf92ba98e",
+  "order": 11901
+ },
+ {
+  "file": "phishing_pot/email/sample-11902.eml",
+  "sha256": "edcca6930a26274e38a5bfea7e1327bbe9d2853a62bc1a202d637e3da2faca23",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:41ce5ef12c631316d2a69f8841d16dea8f3e9c8c",
+  "order": 11902
+ },
+ {
+  "file": "phishing_pot/email/sample-11903.eml",
+  "sha256": "8866be9f0056cfb275e49410de196fbafd9f94ee0f80c72352f3dcc730a29350",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2cef007cfb6574a7d75774ad1aedd6d140846aa0",
+  "order": 11903
+ },
+ {
+  "file": "phishing_pot/email/sample-11904.eml",
+  "sha256": "effce27252cb17271ff1ac8b01adb0c9f0238bd8d93e5bc5b7edc8fc893b8043",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9016b1a53bf9b1fe3732a37c5b3edfe3fac77523",
+  "order": 11904
+ },
+ {
+  "file": "phishing_pot/email/sample-11905.eml",
+  "sha256": "327e5727fc76880d052ec5648b78fdb664776adc63ea16ef9936e3611eba6255",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:6390d454447f5db735fdcbbadf7ea517c863ed17",
+  "order": 11905
+ },
+ {
+  "file": "phishing_pot/email/sample-11906.eml",
+  "sha256": "8c9e4fac4294c40de7235fa69aba5d8e70070a94e7f503fe3e5cc579dfad7ff3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3df6ac98edd0928262ae964990cdb661a43b5b38",
+  "order": 11906
+ },
+ {
+  "file": "phishing_pot/email/sample-11907.eml",
+  "sha256": "279c26ab0933b8956f8c35248d7d76fc463126bcad263781d9ee5a45431cb380",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fbebcb3134680e3efba6c8a1ba616431998268f0",
+  "order": 11907
+ },
+ {
+  "file": "phishing_pot/email/sample-11908.eml",
+  "sha256": "bdbd15f4ba70704ce27675dd204914f3611cc967c8d6336984ee5a209ac6376c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11908
+ },
+ {
+  "file": "phishing_pot/email/sample-11909.eml",
+  "sha256": "022caf4ff1edadeab7602c909d1cc60745187d3c0685ca55e6068d9879e5e52b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11909
+ },
+ {
+  "file": "phishing_pot/email/sample-11910.eml",
+  "sha256": "8ae1e7144adbec21dc0f6448f901c84ad005789d8ca278b2644e84a026b6d67a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11910
+ },
+ {
+  "file": "phishing_pot/email/sample-11911.eml",
+  "sha256": "ab837bec47a1503e209c17a4caa0a933e1879bb886c53a1000cb52efa008fe48",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11911
+ },
+ {
+  "file": "phishing_pot/email/sample-11912.eml",
+  "sha256": "39e7de5efab2ccbd86a5a4c11973fdcc253eca94e467c612c0ecd0765a0396e7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11912
+ },
+ {
+  "file": "phishing_pot/email/sample-11913.eml",
+  "sha256": "4cb137d1c2e9509d153cf09c603c05eee1ecd5c82b0408c8322f188948128a3c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11913
+ },
+ {
+  "file": "phishing_pot/email/sample-11914.eml",
+  "sha256": "fac4f5777843ae2ed260498818f6325385ccccb63a4b340629fbf1ef923dbe36",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11914
+ },
+ {
+  "file": "phishing_pot/email/sample-11915.eml",
+  "sha256": "ac1fedae249d3d11e3efd20a777644b8d68f36800ed38641d9dd77c8b7ce6d37",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11915
+ },
+ {
+  "file": "phishing_pot/email/sample-11916.eml",
+  "sha256": "c6e90d3686a9520f75fdd8873f41c2fb9fb219eb365d759c323939a3cafd9f34",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11916
+ },
+ {
+  "file": "phishing_pot/email/sample-11917.eml",
+  "sha256": "e89688dd22aa3382379c44471fb814a20fbd232dfd5b8be3c2fa0d1e8caf3623",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11917
+ },
+ {
+  "file": "phishing_pot/email/sample-11918.eml",
+  "sha256": "161630461f57bc63abdb9352101047b4440aa1b8e5519386e1f5a9a1ad9028df",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11918
+ },
+ {
+  "file": "phishing_pot/email/sample-11919.eml",
+  "sha256": "7514bf63149bd94a1f4ce34cbc656868968ed37cad2ff24190740588e9eb1e9d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11919
+ },
+ {
+  "file": "phishing_pot/email/sample-11920.eml",
+  "sha256": "39c1d542e5c7cca317670a1184157b13b10b410db371401d4578e3e5d49b04ad",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11920
+ },
+ {
+  "file": "phishing_pot/email/sample-11921.eml",
+  "sha256": "5a2822f006a25fcdecbacb1e841750a1d7056848f706952a7300deecd8828dc5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11921
+ },
+ {
+  "file": "phishing_pot/email/sample-11922.eml",
+  "sha256": "b18ce86d455d28ec6e708a41f5d0741c1427b7ffd251a4f028a4c2f1518ba544",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11922
+ },
+ {
+  "file": "phishing_pot/email/sample-11923.eml",
+  "sha256": "89801e8b453fff31ed91d22d1e787887c1c3edac2fcad3a4e098217783a55f23",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11923
+ },
+ {
+  "file": "phishing_pot/email/sample-11924.eml",
+  "sha256": "68b5c1602e3a9b237124a6f32e8aba7959f83464d93c43bdc6d788365de54866",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11924
+ },
+ {
+  "file": "phishing_pot/email/sample-11925.eml",
+  "sha256": "fd9593e965c972d57c9636acb4849626fbb26eba2ea5910a702043c7b36df49b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11925
+ },
+ {
+  "file": "phishing_pot/email/sample-11926.eml",
+  "sha256": "72941f03ac0d7d80575a980c41843870354e7000aaff5816e27dd649839ead46",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11926
+ },
+ {
+  "file": "phishing_pot/email/sample-11927.eml",
+  "sha256": "8ffa0f8db234a90b8639b13c6fe6eb27facf3161edb45b88b2f68697c4d08d34",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11927
+ },
+ {
+  "file": "phishing_pot/email/sample-11928.eml",
+  "sha256": "2473115b5e6549ce9d4b09c76641e17d13c928389ae372b89b0ee9c35bd06dbb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11928
+ },
+ {
+  "file": "phishing_pot/email/sample-11929.eml",
+  "sha256": "58a1b919a2a8b6660f550a58226c7a5742bc168b76696bcf860ceda614d62cac",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11929
+ },
+ {
+  "file": "phishing_pot/email/sample-11930.eml",
+  "sha256": "a2924d1d4c566a514e21fd8524b8e93f40ca96c644a27868d61d531dda9bf43c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11930
+ },
+ {
+  "file": "phishing_pot/email/sample-11931.eml",
+  "sha256": "706a71119990d811bfe8ae8cacb75a67b8f44c6bf412761226d49afbc7273b01",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11931
+ },
+ {
+  "file": "phishing_pot/email/sample-11932.eml",
+  "sha256": "da802f72b7a243950c68ebf2ec27ba3ffc0fe3c102034dc5bc648ad99798c3f6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11932
+ },
+ {
+  "file": "phishing_pot/email/sample-11933.eml",
+  "sha256": "4a504e43c39c4bca1f9668e9b55c421ceab76ab33ab378bddc0984571cb4ae99",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11933
+ },
+ {
+  "file": "phishing_pot/email/sample-11934.eml",
+  "sha256": "0ef2cf959ffde1bade01e084f04266a2d2d594123bab202d9e228a95efc60b5d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11934
+ },
+ {
+  "file": "phishing_pot/email/sample-11935.eml",
+  "sha256": "b0ccf2d00d85c0f593642b37792680cf60811681e2c1192dc18d6c922ab3022b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11935
+ },
+ {
+  "file": "phishing_pot/email/sample-11936.eml",
+  "sha256": "ebb533b0f6842b3eaccf6d99d5fc0affe464b11f9fbb71ee71305783f600266d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f69ec331dc6e8c46bedc5ed31a1af3fac8e53b69",
+  "order": 11936
+ },
+ {
+  "file": "phishing_pot/email/sample-11937.eml",
+  "sha256": "b2335cd688232f11e511cf8f790c87e5b0707dbfb85f55a347712fdb3d9f5c13",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ee6fb1e972d9a85c34393a44d4d7fb954eb82d78",
+  "order": 11937
+ },
+ {
+  "file": "phishing_pot/email/sample-11938.eml",
+  "sha256": "be842092b11160becd89b7d51a8825a4b47138758b50ee1479ca1d308a4ef7fb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ac8e85fa17583dd2f0652acbfff29e184dda9948",
+  "order": 11938
+ },
+ {
+  "file": "phishing_pot/email/sample-11939.eml",
+  "sha256": "bb51014a8b84837d442366170ba64584bb2a3fe66ef12195fea400be5a3c3e39",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17528527ebf373a7c0aeaab1232eaa42252994cc",
+  "order": 11939
+ },
+ {
+  "file": "phishing_pot/email/sample-11940.eml",
+  "sha256": "6094def678e5bd2908f10200ca33fa56071770ecf1841211cff3f59b12366263",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17528527ebf373a7c0aeaab1232eaa42252994cc",
+  "order": 11940
+ },
+ {
+  "file": "phishing_pot/email/sample-11941.eml",
+  "sha256": "2faeea2e24ffd0d1b783a523d3320aca277c5f867471644562f1a1aa6dfa7ffe",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:18c8daadb2e163b3d9ebca9fe3dfb0757cd7ddfa",
+  "order": 11941
+ },
+ {
+  "file": "phishing_pot/email/sample-11942.eml",
+  "sha256": "a85cdb817e586c11fd7c9963131e4e3a21d4bc7031ef2d87ca03046032f2d401",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:0f4ddb8d4f0c406573ce4b510f8fb3b04749f969",
+  "order": 11942
+ },
+ {
+  "file": "phishing_pot/email/sample-11943.eml",
+  "sha256": "b884504a48db4b6038ded273076ed6a16ce97dbe3d201a45086833d6e3d30134",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:0f4ddb8d4f0c406573ce4b510f8fb3b04749f969",
+  "order": 11943
+ },
+ {
+  "file": "phishing_pot/email/sample-11944.eml",
+  "sha256": "43f7a58d4bb5f16f150150338dcfe37d296eb5f8954e5d28cac97acb7f98b453",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8c18a540c83b46d8a98ce9a3c8c2e41027da760c",
+  "order": 11944
+ },
+ {
+  "file": "phishing_pot/email/sample-11945.eml",
+  "sha256": "bc1b2cc1f89e21dcdccc5681167281a259f32c29b0403ec26ca0df945a37e5ae",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1f491ba70a75c87d6ee201177cb70f47dcf6b130",
+  "order": 11945
+ },
+ {
+  "file": "phishing_pot/email/sample-11946.eml",
+  "sha256": "d228bfcaa5220e1dd294ebe703d348523809d905f0fac0f4c5fc3c7806498f7b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1f491ba70a75c87d6ee201177cb70f47dcf6b130",
+  "order": 11946
+ },
+ {
+  "file": "phishing_pot/email/sample-11947.eml",
+  "sha256": "54dff474fb394f2e889ffeeb26f29d9f14f4d3f0039b776cc55bf3ca091c9e12",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1f491ba70a75c87d6ee201177cb70f47dcf6b130",
+  "order": 11947
+ },
+ {
+  "file": "phishing_pot/email/sample-11948.eml",
+  "sha256": "33c7453403a9819bcd0e3870ad8f6bb315caa6a7dc7e576bb8c549be06ab26cd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:your attention is needed for a membership update on ",
+  "order": 11948
+ },
+ {
+  "file": "phishing_pot/email/sample-11949.eml",
+  "sha256": "6b072cb5780aaefd1c455a66ce5ac34e7832d361b2bcc31067ce3d998bb5de95",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7b44e32f49e45402f9ca359d5dbbf4d83ccc5fde",
+  "order": 11949
+ },
+ {
+  "file": "phishing_pot/email/sample-11950.eml",
+  "sha256": "e9e4a108f66c32b8cbe2b085f9813c6db9f82b6b6f1f815009bbe36d11d042ba",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:23dca93d9a2b10efa0936dd9bf853ac48ce46930",
+  "order": 11950
+ },
+ {
+  "file": "phishing_pot/email/sample-11951.eml",
+  "sha256": "fc385a946ea3ff95319ee40eb7b075d12a9945742a11170b0eea77db7a33e2cc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:4b1b7f82e186bed32db9baaa3e2f8e4e3a4df7b4",
+  "order": 11951
+ },
+ {
+  "file": "phishing_pot/email/sample-11952.eml",
+  "sha256": "2add82cb70c5135142f25769026c33c9d3f20abdf1646b0cc7b86318f559813e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:bf75aade71d9ea1f2d0237e1f969499fe852e7ff",
+  "order": 11952
+ },
+ {
+  "file": "phishing_pot/email/sample-11953.eml",
+  "sha256": "660c491b0e2ed6d0e86eca77cfcb2db3258ab66f7175ec3baaa7b023a5ae5426",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:your memories are fading away save them today",
+  "order": 11953
+ },
+ {
+  "file": "phishing_pot/email/sample-11954.eml",
+  "sha256": "2aebcc7fc44ec6fc5fd1dcf24473ae5ee8cea852660c5a588e62bcc0e27ffc22",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b738bd1ba20229efc5137a6f40a7fa3bf00c767a",
+  "order": 11954
+ },
+ {
+  "file": "phishing_pot/email/sample-11955.eml",
+  "sha256": "6ad925a51bc520b62af5a0c4bc59e2c19c553dd7ddba07f7013fd5bd96dafabd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+  "order": 11955
+ },
+ {
+  "file": "phishing_pot/email/sample-11956.eml",
+  "sha256": "bb139062a037fdf07f68fd2363692a29f3a23058a0923ac2c2cfdeb579b87ba8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11956
+ },
+ {
+  "file": "phishing_pot/email/sample-11957.eml",
+  "sha256": "3f1fd470c64e1d26df416e485a3ea786f18675cb0e882a7858ab7600f98b750d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11957
+ },
+ {
+  "file": "phishing_pot/email/sample-11958.eml",
+  "sha256": "c285baaac24a1aafe9dde3d98a808ab81867c49bd5890a41fa9a18bc1223ba23",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11958
+ },
+ {
+  "file": "phishing_pot/email/sample-11959.eml",
+  "sha256": "34cd47e8c1006b04aa1b999219dcae4e0321f162b0c3cd56e7124c21016a8609",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11959
+ },
+ {
+  "file": "phishing_pot/email/sample-11960.eml",
+  "sha256": "7b8b32965c31277865337df995b930cc0d73546d06f08c569601b5c33dba7fcc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11960
+ },
+ {
+  "file": "phishing_pot/email/sample-11961.eml",
+  "sha256": "26ae0d04692b9a08d3450350d6f1d8dcfb7413c2e9f4284eacbc345ee42a316d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fc000765a9a2059466c8afbe6609520f7d03b264",
+  "order": 11961
+ },
+ {
+  "file": "phishing_pot/email/sample-11962.eml",
+  "sha256": "95481a5e16d01e1bdb58d945f0cd4ce7b8309235a8d7615c8407862275b1e5ed",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8469ff7b610f331d86492acdd693104c723085ca",
+  "order": 11962
+ },
+ {
+  "file": "phishing_pot/email/sample-11963.eml",
+  "sha256": "d11771cd48ee32606194ee67be90d5c7dedda334b6a5cff5a82aa875c2fd108a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d3bd1c0d052e157fca629ba8626bd61ac4ae8187",
+  "order": 11963
+ },
+ {
+  "file": "phishing_pot/email/sample-11964.eml",
+  "sha256": "5d0d9e23de4b53e35bd259fd46c9f15852f95b02841526412d6dfc06a6651a57",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11964
+ },
+ {
+  "file": "phishing_pot/email/sample-11965.eml",
+  "sha256": "b5c53a3968fabd130f5779426d6bfda500f9768b62931c0d931d0ae31a4d00a0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11965
+ },
+ {
+  "file": "phishing_pot/email/sample-11966.eml",
+  "sha256": "a6e1d4a90519c8d9082989500f0f24fe1eec2239128e466471bd564ee7197891",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11966
+ },
+ {
+  "file": "phishing_pot/email/sample-11967.eml",
+  "sha256": "3b79fcf2d9bd9b8da23c53c35581540c39eaa46f6d83a16e930d7c4ec4977acf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11967
+ },
+ {
+  "file": "phishing_pot/email/sample-11968.eml",
+  "sha256": "a6d398e68a2df0cc36d779f9643a339a7dbd95cefe7145702a1b24a204ca0beb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11968
+ },
+ {
+  "file": "phishing_pot/email/sample-11969.eml",
+  "sha256": "1d1e318af209ca245ef1c31d0a4a44333762e2a1c512dc75a4e0e75ce58c9d00",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11969
+ },
+ {
+  "file": "phishing_pot/email/sample-11970.eml",
+  "sha256": "f0d423c334af531432c385a456154799686135929a2780a761208556e993980e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11970
+ },
+ {
+  "file": "phishing_pot/email/sample-11971.eml",
+  "sha256": "a342ca2099e0dc11af28ca8e6857ab1fe7a471453c6b9c8a2a65f8b9a860f3c8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11971
+ },
+ {
+  "file": "phishing_pot/email/sample-11972.eml",
+  "sha256": "4c8daff0fea7a56811245a7df300654cdfbe2c87d5d150e98cdb62dc08ba2a87",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3854d9431a7d126bc9b4eb1350c8f32a0af2bd44",
+  "order": 11972
+ },
+ {
+  "file": "phishing_pot/email/sample-11973.eml",
+  "sha256": "cc6ca688492ef8d789b5623ec6e96c93aab8ff73fb53da24dcda021d43b65bb1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17ce7065a39e09052bbbd0ba6680e7a278b5238c",
+  "order": 11973
+ },
+ {
+  "file": "phishing_pot/email/sample-11974.eml",
+  "sha256": "079ba27af8f0c5ee9b8bbf66c2a5cc303ec067a6de0e807d204b5508ac0d3ce1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17ce7065a39e09052bbbd0ba6680e7a278b5238c",
+  "order": 11974
+ },
+ {
+  "file": "phishing_pot/email/sample-11975.eml",
+  "sha256": "534c2502c3a7113f0100ac67dd7e363f50677beaa5f86110b861a8b4cf46d41f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17ce7065a39e09052bbbd0ba6680e7a278b5238c",
+  "order": 11975
+ },
+ {
+  "file": "phishing_pot/email/sample-11976.eml",
+  "sha256": "0f005f242d016a5a81ae0d2f81dd53a15c27d41daf07fdd9692ef3fe1887541c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17ce7065a39e09052bbbd0ba6680e7a278b5238c",
+  "order": 11976
+ },
+ {
+  "file": "phishing_pot/email/sample-11977.eml",
+  "sha256": "c79b6a4d4d7ecf370cbd88ff28d4bab124c4d4eae9c80f1bcd6a7d1d51aa7c40",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17ce7065a39e09052bbbd0ba6680e7a278b5238c",
+  "order": 11977
+ },
+ {
+  "file": "phishing_pot/email/sample-11978.eml",
+  "sha256": "9cba53d372f371c61da15d7121441ecddcf1a1928676a0c5eac158a7faf5c67e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:80b57ac152d390a8bc98d3c0c6ab1edbb084fe05",
+  "order": 11978
+ },
+ {
+  "file": "phishing_pot/email/sample-11979.eml",
+  "sha256": "3a8a64899e2a905ebf9d6ff303ec576662ecbce3456fc8275fd89d3589cc0bcb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:929aab3c85b518a7980313a53d3f99d38e639b91",
+  "order": 11979
+ },
+ {
+  "file": "phishing_pot/email/sample-11980.eml",
+  "sha256": "592a065aaa9b6a69c3e8b53ee86e809b4d4dc00e9a3b181b8933af95c86dded0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:929aab3c85b518a7980313a53d3f99d38e639b91",
+  "order": 11980
+ },
+ {
+  "file": "phishing_pot/email/sample-11981.eml",
+  "sha256": "608cab7e6cf07d4c8a863e138036d2adfd182d7ded320ac88710851e280404a8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e3676cd59f761362573f4dafe3ace4eb9f7cbe81",
+  "order": 11981
+ },
+ {
+  "file": "phishing_pot/email/sample-11982.eml",
+  "sha256": "3d28021991a5e7511fd440eb863d8ad9bcb2166681f35086aedc0b3091d23e42",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e3676cd59f761362573f4dafe3ace4eb9f7cbe81",
+  "order": 11982
+ },
+ {
+  "file": "phishing_pot/email/sample-11983.eml",
+  "sha256": "e1c558c11126da4ef5ada2003015b6021b256ba570809c55365a86ce1927d9e5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:15fdd3a68711c3604681c21d0564e1de994da606",
+  "order": 11983
+ },
+ {
+  "file": "phishing_pot/email/sample-11984.eml",
+  "sha256": "07adac190d7ea3fb30145f6b42c13b405ab7b3f3e6eba9240b1452484578b907",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "subject:your storage limit has been exceeded security disabl",
+  "order": 11984
+ },
+ {
+  "file": "phishing_pot/email/sample-11985.eml",
+  "sha256": "3370e1489bb4fb3fad5d6c2c9dcde08f24c78eaac86602b99c92fce7242e993f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b2769f761e344d875d4ed47d737c0db9b5bbea76",
+  "order": 11985
+ },
+ {
+  "file": "phishing_pot/email/sample-11986.eml",
+  "sha256": "94edcc49927039e91a95e9f5d3546fc1184ae82d02b9d6472cc35b37351241a3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:fe74b098a8da0eb70b3d63801c177dcfe5cf72bc",
+  "order": 11986
+ },
+ {
+  "file": "phishing_pot/email/sample-11987.eml",
+  "sha256": "c8965e6b1c1fec84f26c734c73a25050b312329ee2e0cfc65df13210fe06ff4e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8bc9526e8d7a289da5954fb0e08d25b34ce885a5",
+  "order": 11987
+ },
+ {
+  "file": "phishing_pot/email/sample-11988.eml",
+  "sha256": "ae8621607240ffe8a246253a020e1f5f86ab6037799b70a46cbc1d21cc3f0350",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+  "order": 11988
+ },
+ {
+  "file": "phishing_pot/email/sample-11989.eml",
+  "sha256": "02dfe7d4024983863daacf74b9f77f7b20ad43508dc6b26708a2ad3015755f16",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b74179c2cccbef911c3206658098476d2732745d",
+  "order": 11989
+ },
+ {
+  "file": "phishing_pot/email/sample-11990.eml",
+  "sha256": "f73c3655412d4b84dd58b9efdb4275385612d83d569464bd12f79b7abe91d79f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:17d7dc8dc97d070decc42336b1c2b15d7363fb1d",
+  "order": 11990
+ },
+ {
+  "file": "phishing_pot/email/sample-11991.eml",
+  "sha256": "1a912f4bc976637412601c65845c934a4b2afed66f95846ea464e72d58a7daa8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2d04b77ca1f121f0420756669ecf6a6708c55f8a",
+  "order": 11991
+ },
+ {
+  "file": "phishing_pot/email/sample-11992.eml",
+  "sha256": "0230ba3b029dcd96afd5137484bde1c7c0d196ffb3ad92e3f3ad17490ba160e9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:956f23bc8964de46e1392aeadbc2d50885d4b988",
+  "order": 11992
+ },
+ {
+  "file": "phishing_pot/email/sample-11993.eml",
+  "sha256": "1b636e964b6782d52cd70e8cf8b6c7646bb428aea1bd4dafc318e04acca8040c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:a3479b63285591d4a0ab68ab42759e453a43ffcd",
+  "order": 11993
+ },
+ {
+  "file": "phishing_pot/email/sample-11994.eml",
+  "sha256": "f686faf591519ce54b4ac6c3498bc9bb2d9798e08331ace55b2f060c27f7346e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e5d55f158c88007892ac6d8c3c7eecf4ad87c16c",
+  "order": 11994
+ },
+ {
+  "file": "phishing_pot/email/sample-11995.eml",
+  "sha256": "84937c8ec2d766c0fcaf1c986168a2cfe6566bc8a5c19c9e5e3eae9384f54207",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e5d55f158c88007892ac6d8c3c7eecf4ad87c16c",
+  "order": 11995
+ },
+ {
+  "file": "phishing_pot/email/sample-11996.eml",
+  "sha256": "48c5b932907316d221c6afdbb45d5ddf3c6e21cf26c1b21336325723acb7f717",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:827f64cfb82582c1b1e1a507bd304132bcda81f1",
+  "order": 11996
+ },
+ {
+  "file": "phishing_pot/email/sample-11997.eml",
+  "sha256": "7330e02ebfa95242a3a5cdddc074ebe28418e1556aa996f355e73ed6b8e61416",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1b4e77d3ee1d686c202938acd7e7c2439e316dc3",
+  "order": 11997
+ },
+ {
+  "file": "phishing_pot/email/sample-11998.eml",
+  "sha256": "796b7099fd4deaba04b31b6ae6b7d290a426975988386c6241eb76d81a8faf5c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f7b921d575652858600a646f96ba32713110ee72",
+  "order": 11998
+ },
+ {
+  "file": "phishing_pot/email/sample-11999.eml",
+  "sha256": "f82d7163a598742b2ed9b72ed29bdfbbdde5de2238587b22d4181989f1f3feec",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e72fcc0f7aa60a6f7be6bf3aa37b39b0edc63ba9",
+  "order": 11999
+ },
+ {
+  "file": "phishing_pot/email/sample-12000.eml",
+  "sha256": "fb0ef2fdef4e5fa2793b7bd16797e6be0202c35903881be5f9bceabce23e17e5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d60bf01abe55d9ea66487b3ed504b709921b64cb",
+  "order": 12000
+ },
+ {
+  "file": "phishing_pot/email/sample-12001.eml",
+  "sha256": "e01a85cd2cf0ee292ded2d7ed6f663dc0e9b083330de0fb36234e17820cd3272",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d60bf01abe55d9ea66487b3ed504b709921b64cb",
+  "order": 12001
+ },
+ {
+  "file": "phishing_pot/email/sample-12002.eml",
+  "sha256": "4efa5d6fe229dd4ece3965977d7d08cfe9d82fb598db5b13b87653fc248a4744",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:d67136562505b7683c77e24cd704a45af0c206da",
+  "order": 12002
+ },
+ {
+  "file": "phishing_pot/email/sample-12003.eml",
+  "sha256": "ee584726c5c89663aa0db84ac6336ad1f5f30ab9a98381e0b2ff349212af0590",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:715c751474a55500a0e7683e57f1e908c1d9e0d8",
+  "order": 12003
+ },
+ {
+  "file": "phishing_pot/email/sample-12004.eml",
+  "sha256": "9f9d66a4741c30e5fac48c5b66d1bb7d310bf77cce922e9fc3cbc6aa07a044c0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8f7598fb154465f113bebf4a70768cd0bd1f1f2e",
+  "order": 12004
+ },
+ {
+  "file": "phishing_pot/email/sample-12005.eml",
+  "sha256": "8180fb6bcf3284bd16f315c3e1e8f78e0a6fdb615dfcaf2fabf8f5ff589ba261",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8f7598fb154465f113bebf4a70768cd0bd1f1f2e",
+  "order": 12005
+ },
+ {
+  "file": "phishing_pot/email/sample-12006.eml",
+  "sha256": "8e16915a1aae108ffab449203c234bceb9c9871b227174526ef646f6892b0365",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:73b7780207b4adb0a2dae9ae574dd3dc9efec414",
+  "order": 12006
+ },
+ {
+  "file": "phishing_pot/email/sample-12007.eml",
+  "sha256": "024cdc31c4b6573ed1b1c92070e9dd00940093dc747a5f70194a954f78a87e5c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:99257b50c5083dd02660c44f5452bfac85bd6dc5",
+  "order": 12007
+ },
+ {
+  "file": "phishing_pot/email/sample-12008.eml",
+  "sha256": "e4a7e1fb3df6bba604d0d9417e797606224ba0f31d8ef967140c70a4d4021bfe",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:99257b50c5083dd02660c44f5452bfac85bd6dc5",
+  "order": 12008
+ },
+ {
+  "file": "phishing_pot/email/sample-12009.eml",
+  "sha256": "f3714d5de7a662e1210ea6033f950b4709496a9b944f2229a7251886940da3bf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:48ffef3ec81f119d680ddc1c5f7df22415199ed7",
+  "order": 12009
+ },
+ {
+  "file": "phishing_pot/email/sample-12010.eml",
+  "sha256": "d8e4d4724b153368f43d978ee25a4722e647493ec062d2c2a2a9fd91d9f811a3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:48ffef3ec81f119d680ddc1c5f7df22415199ed7",
+  "order": 12010
+ },
+ {
+  "file": "phishing_pot/email/sample-12011.eml",
+  "sha256": "9e5c875c2ad3b4ddaa72e72f1f687ac09d886a19072f2f87c8fa6b3ad2c1bf0b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:8e3f1ee004ac2a3a0b48e32442b568035a92ff78",
+  "order": 12011
+ },
+ {
+  "file": "phishing_pot/email/sample-12012.eml",
+  "sha256": "41dddb8d94f48f233987307f29c6bcf256556cc12ff50e650b8ccaa835f2f627",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b503725d5003765e7f6e285b9f7af0f7c9b78304",
+  "order": 12012
+ },
+ {
+  "file": "phishing_pot/email/sample-12013.eml",
+  "sha256": "a318174e44557dbaf151b63890ee6fc3bca9afb677a85ff124623bbbe07043d6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b503725d5003765e7f6e285b9f7af0f7c9b78304",
+  "order": 12013
+ },
+ {
+  "file": "phishing_pot/email/sample-12014.eml",
+  "sha256": "9538567cc027440267d980d551bb37edac9b8836377cfaa8f98d9c973fdcdcad",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c6ff031f5b3791e74634b99227aebf8bae94d32d",
+  "order": 12014
+ },
+ {
+  "file": "phishing_pot/email/sample-12015.eml",
+  "sha256": "f414161777847d5253ac2c44d59470851d8d7e6d334bd8686ca690f07ed804bf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c6ff031f5b3791e74634b99227aebf8bae94d32d",
+  "order": 12015
+ },
+ {
+  "file": "phishing_pot/email/sample-12016.eml",
+  "sha256": "5004533470141222b8398689daf65ba0845d58ef009cd7063b7fa71e9599aae4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c6ff031f5b3791e74634b99227aebf8bae94d32d",
+  "order": 12016
+ },
+ {
+  "file": "phishing_pot/email/sample-12017.eml",
+  "sha256": "9052e8a6b595c13daa284858590b2ec71d4a06a768e575b98c1755cb3d41dd0a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:0d5dddb982583a8870f7f1fc53936f22fdcdf38e",
+  "order": 12017
+ },
+ {
+  "file": "phishing_pot/email/sample-12018.eml",
+  "sha256": "789a958298ef798b56c3186cd933ca517649bf8691199665a1a67a5383df0862",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12018
+ },
+ {
+  "file": "phishing_pot/email/sample-12019.eml",
+  "sha256": "a2a3f9fc71a6a7cfd11eaa02fa0c00f8590e99662e2b7e93f1d0b45aabc1e129",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12019
+ },
+ {
+  "file": "phishing_pot/email/sample-12020.eml",
+  "sha256": "3ce059e9b6b7060d6657e59444f5a0bc310292e35c621d048f3f03c7fadd9bee",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12020
+ },
+ {
+  "file": "phishing_pot/email/sample-12021.eml",
+  "sha256": "72aa678cf915ce3a46201ea3c9fdc8de53cf72859f61e0151ee8a1ce80cc6380",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12021
+ },
+ {
+  "file": "phishing_pot/email/sample-12022.eml",
+  "sha256": "3eb30c438db0784f7d03cd4fc7851adc5b9c83836774a77d720341b86d11cb19",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12022
+ },
+ {
+  "file": "phishing_pot/email/sample-12023.eml",
+  "sha256": "c0d36679f0a443995be0588047a83c646ed65ba726d3619ed0f2dfeecdd801f7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12023
+ },
+ {
+  "file": "phishing_pot/email/sample-12024.eml",
+  "sha256": "dfce7c850f157b1ecfb1be73408309fcd8077aeaa6cb1cb8294d9d28c34edae2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ebee2e868b4622f9ed64e283b81254f1bd0e0070",
+  "order": 12024
+ },
+ {
+  "file": "phishing_pot/email/sample-12025.eml",
+  "sha256": "df751c2e6dace28058483ac24e103f0c47f0346dd692a0bdf94afb9a14fd0168",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b45b19a440e34d8225fc92dff2b4281b2b0b92ff",
+  "order": 12025
+ },
+ {
+  "file": "phishing_pot/email/sample-12026.eml",
+  "sha256": "1a33dc0cf9db7223d910a47bc8b9baccbdd29a99e6b5d490a7087040b25b7a7e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b45b19a440e34d8225fc92dff2b4281b2b0b92ff",
+  "order": 12026
+ },
+ {
+  "file": "phishing_pot/email/sample-12027.eml",
+  "sha256": "6b3c028653d88c007bdcf866d48e548f48b521290fa13291d1db45754cc8c87f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:0c4d0f007bd6ebebf472773bdcb9fd663cc99a90",
+  "order": 12027
+ },
+ {
+  "file": "phishing_pot/email/sample-12028.eml",
+  "sha256": "e403eac215f353ee90ce31db335c3fefa0058d48e32e8ec4c1ae17a463735a78",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:19339f9f972b154d6a0ca9619fb002b0a5d7764f",
+  "order": 12028
+ },
+ {
+  "file": "phishing_pot/email/sample-12029.eml",
+  "sha256": "d89e0e9b339b9fe445f4c0211eb054dfa870e27bc6498bd9e48a96bbb6023ca0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:19339f9f972b154d6a0ca9619fb002b0a5d7764f",
+  "order": 12029
+ },
+ {
+  "file": "phishing_pot/email/sample-12030.eml",
+  "sha256": "bd22fc0f8acea61774462e991b3598ce11d399033eeade06853eefdf5b3c3cb4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:19339f9f972b154d6a0ca9619fb002b0a5d7764f",
+  "order": 12030
+ },
+ {
+  "file": "phishing_pot/email/sample-12031.eml",
+  "sha256": "e45624cc976e88bf0f91cf4eff25372a96b75db61c558c4d1cf524b487d730aa",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:cb583c499b9952ad07ab072a6ceb4a12ebc5ec54",
+  "order": 12031
+ },
+ {
+  "file": "phishing_pot/email/sample-12032.eml",
+  "sha256": "319832949c0866dd1dde3f0035af691133ce516d7472c87edbbdfa37cf4a5d7a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:44d5ab569f14bedd91ad1f4d3a97e04c9d66ca3d",
+  "order": 12032
+ },
+ {
+  "file": "phishing_pot/email/sample-12033.eml",
+  "sha256": "7cf6c5600e2d5a1bd43d485d846ebcd33647494b56c79a24588147240c50668b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:44d5ab569f14bedd91ad1f4d3a97e04c9d66ca3d",
+  "order": 12033
+ },
+ {
+  "file": "phishing_pot/email/sample-12034.eml",
+  "sha256": "85b803d7396303028ebc4d3a1f9006d3ae371f583965072ff995f28c80a29b98",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:44d5ab569f14bedd91ad1f4d3a97e04c9d66ca3d",
+  "order": 12034
+ },
+ {
+  "file": "phishing_pot/email/sample-12035.eml",
+  "sha256": "e546880a465ec39172e10ea2ce8ea9efbc35cfcd5aa207a43ab7709f4effdeb2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2c27fb5ac65e84ad027a05fb63e365d5ae7377b6",
+  "order": 12035
+ },
+ {
+  "file": "phishing_pot/email/sample-12036.eml",
+  "sha256": "4fbffcc5c351f6060b8153d4ecd702b2602162964df90f4f0144222ae752bc95",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2c27fb5ac65e84ad027a05fb63e365d5ae7377b6",
+  "order": 12036
+ },
+ {
+  "file": "phishing_pot/email/sample-12037.eml",
+  "sha256": "7402816399170493648508307c28bcc4dd81e4c7153f546b1376d3e154f4623b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2cbc91b217736a8f99f975134a08d68222636802",
+  "order": 12037
+ },
+ {
+  "file": "phishing_pot/email/sample-12038.eml",
+  "sha256": "44ebbdb477940dcfb1c4c58b89a023914defc19d2055f2b68c5e589136254245",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:2cbc91b217736a8f99f975134a08d68222636802",
+  "order": 12038
+ },
+ {
+  "file": "phishing_pot/email/sample-12039.eml",
+  "sha256": "9aae222bdb2725329786809f7d031a7da9299b52277bd73c277753bd9837993c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b5ee48d71240e66d95d0820953043fcf9b0f078e",
+  "order": 12039
+ },
+ {
+  "file": "phishing_pot/email/sample-12040.eml",
+  "sha256": "3f1bcf500cedde96b6134f71fa0f49b496fee82ad268c15095e175f6b41ac479",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b5ee48d71240e66d95d0820953043fcf9b0f078e",
+  "order": 12040
+ },
+ {
+  "file": "phishing_pot/email/sample-12041.eml",
+  "sha256": "d6517cf58366c86d302eaa88c330c7e5b129825e5f9876da140750856eaa9066",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b5ee48d71240e66d95d0820953043fcf9b0f078e",
+  "order": 12041
+ },
+ {
+  "file": "phishing_pot/email/sample-12042.eml",
+  "sha256": "55b71680d120d9b8f4ff0a138fde4a7691565cd969ea1e3b3fbc9e89350b5e18",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:eca2e3103dfaf7ff5a3b8fb8a38c8b1b45ab215a",
+  "order": 12042
+ },
+ {
+  "file": "phishing_pot/email/sample-12043.eml",
+  "sha256": "33fd8cade43ed7109c787c13a9811e0de6d9de4747d1b8742cf5c3e5d3b4f3e2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:83fb4b97075beb4e32040e0e4280785b2cc25b45",
+  "order": 12043
+ },
+ {
+  "file": "phishing_pot/email/sample-12044.eml",
+  "sha256": "e590d3da1138d823dd343259e083aa3bacb6579b747ada4d95dd76ed873c9d63",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:15e0297612a9208174d840c05cca73b519038e33",
+  "order": 12044
+ },
+ {
+  "file": "phishing_pot/email/sample-12045.eml",
+  "sha256": "c7e90a07d23f268942982a489bfec19d36fa68f051660dff850c8d8ad7e9c075",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:c146ed4fecac6e0c3aff16a8d4e0c01f6dbef1af",
+  "order": 12045
+ },
+ {
+  "file": "phishing_pot/email/sample-12046.eml",
+  "sha256": "af5f016b894580acc377843803bb8a5d481cd7ef1cc03376f993d125e7c18725",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7f67da5775d34f2c01be14a3113b83fa3508480d",
+  "order": 12046
+ },
+ {
+  "file": "phishing_pot/email/sample-12047.eml",
+  "sha256": "9109d8f0c04916fc3c746db60d020ee8e6fddfd3017b4815e2cadc6340595678",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7f67da5775d34f2c01be14a3113b83fa3508480d",
+  "order": 12047
+ },
+ {
+  "file": "phishing_pot/email/sample-12048.eml",
+  "sha256": "8890fada1af5feb7d147d43ea8ca6bb31b9f29e16b19aa0fe3f07453bad26c00",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:7f67da5775d34f2c01be14a3113b83fa3508480d",
+  "order": 12048
+ },
+ {
+  "file": "phishing_pot/email/sample-12049.eml",
+  "sha256": "c557d4add83b8a16d599ee471d9885d5ee5cf05ee9db3fa8d9cf982c8e89f662",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:a6ad6b6955d90223227682e60c73ced23b650135",
+  "order": 12049
+ },
+ {
+  "file": "phishing_pot/email/sample-12050.eml",
+  "sha256": "14321536dc5562360fa41e9d10163fe477ba83146eb54c46e5da0acca162b802",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:1ab4abecde9afd527296d7a1a3558fb8c791a045",
+  "order": 12050
+ },
+ {
+  "file": "phishing_pot/email/sample-12051.eml",
+  "sha256": "0f2eb56f4d0b7268263f3951f09a5d11b6230e1b3b90da9fac0adb90d07e26da",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9dfaf980e8432eede8eb6134137ef2cf4a2fcf18",
+  "order": 12051
+ },
+ {
+  "file": "phishing_pot/email/sample-12052.eml",
+  "sha256": "76da9c7b7d2962576c8c79cd4e4692af9302e43a9d13cfefa7644326c3b1b315",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9dfaf980e8432eede8eb6134137ef2cf4a2fcf18",
+  "order": 12052
+ },
+ {
+  "file": "phishing_pot/email/sample-12053.eml",
+  "sha256": "8f727bc3676817971296d987c5a510f531f37b558779b771fcfe9dd2f4ec6a9e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b2180229401eb0a9c1722aad9205da807ebdb846",
+  "order": 12053
+ },
+ {
+  "file": "phishing_pot/email/sample-12054.eml",
+  "sha256": "6202d498d627a03918c07c238eed01dc818e747d8904e2c9eff11a8a098b6cc4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b2180229401eb0a9c1722aad9205da807ebdb846",
+  "order": 12054
+ },
+ {
+  "file": "phishing_pot/email/sample-12055.eml",
+  "sha256": "cfcce2882ac3dda518a70df9be7b991b4e4453714b0c3a0bcdcf551d5e4935dd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b2180229401eb0a9c1722aad9205da807ebdb846",
+  "order": 12055
+ },
+ {
+  "file": "phishing_pot/email/sample-12056.eml",
+  "sha256": "5f7d6a621a2e54d4953b05d52ae194f0493ec883a1d731ed7ed5ba81750fe46d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:3b46207879549e6c19b13eb75666b7af77290141",
+  "order": 12056
+ },
+ {
+  "file": "phishing_pot/email/sample-12057.eml",
+  "sha256": "de2c3c2d7fd0b19340dc9f806033d4cd97a6c46a1ac3b88cb5012d05261360d8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ac962382836766b121ea5ae9d8429a5f18ee8878",
+  "order": 12057
+ },
+ {
+  "file": "phishing_pot/email/sample-12058.eml",
+  "sha256": "02b122786024df4da0d17ed388e00314fdbed9a504ec00b3b3c4f2915866254b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ac962382836766b121ea5ae9d8429a5f18ee8878",
+  "order": 12058
+ },
+ {
+  "file": "phishing_pot/email/sample-12059.eml",
+  "sha256": "4b272467f0907c09aa6b0533b6104db41a99883906d5923a7113f2e40eef0453",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ff67b208ba318ddc832b23eb7e9ad61450a94ae6",
+  "order": 12059
+ },
+ {
+  "file": "phishing_pot/email/sample-12060.eml",
+  "sha256": "c12c4cda643a506440789ef6521ec2153fc83d6f1888efa32ff0257d852ed76f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:ff67b208ba318ddc832b23eb7e9ad61450a94ae6",
+  "order": 12060
+ },
+ {
+  "file": "phishing_pot/email/sample-12061.eml",
+  "sha256": "1a6553ffe53c1e7ef105c7a57f4412b70db7269ccd892849470ba3a8a1f0ff2b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:93672f3c7f00f2c2b7b5da57eca9abfa2458ecb8",
+  "order": 12061
+ },
+ {
+  "file": "phishing_pot/email/sample-12062.eml",
+  "sha256": "8ffd698ed7def1b7e4062d71d1c0a766f3efe96dd2c572585249a80165e82d22",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:cf5b14a244b7aa2418377772f384860846cedfa4",
+  "order": 12062
+ },
+ {
+  "file": "phishing_pot/email/sample-12063.eml",
+  "sha256": "96c1a354127f4ade89441541f01dcd230e9a32d1908c0d359714408e96ece0db",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:9f60696de1121e842335ac0da8493e8ef7c6814b",
+  "order": 12063
+ },
+ {
+  "file": "phishing_pot/email/sample-12064.eml",
+  "sha256": "5b1ce6d8e50b4ba7d3a4f7f898ce6f308065a51074cf1857a3cdb35a1305c3f4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b6a7f352e0ffeea88212b2373724de18fc4a7d0e",
+  "order": 12064
+ },
+ {
+  "file": "phishing_pot/email/sample-12065.eml",
+  "sha256": "be332bb873663835a9884f02772233c1813adea9b1b40c3ae9d625ee69df3430",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:475733e9b745b34f863e9f907d55eec4bcd44169",
+  "order": 12065
+ },
+ {
+  "file": "phishing_pot/email/sample-12066.eml",
+  "sha256": "21503139dcec270974d559ac5938371dc2cb53169aa167372873979d18b19948",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:91da82b970e85e7e1312679b156cc9106f59c784",
+  "order": 12066
+ },
+ {
+  "file": "phishing_pot/email/sample-12067.eml",
+  "sha256": "db69d71e195c03525c4eecc7f2c5a103f1e74cb2f90d1772e5b8c1c68a0a2d88",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b8da13aee7abe312e8cc9cc094f6559370befae0",
+  "order": 12067
+ },
+ {
+  "file": "phishing_pot/email/sample-12068.eml",
+  "sha256": "a542bdcdde74c5c11500d9203541f105179022198ed7f44b71b30ad6a0013e48",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b8da13aee7abe312e8cc9cc094f6559370befae0",
+  "order": 12068
+ },
+ {
+  "file": "phishing_pot/email/sample-12069.eml",
+  "sha256": "552f117738617a075aeaa1c7db04c838e0d06ac2500f7807d66785c940010881",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:b8da13aee7abe312e8cc9cc094f6559370befae0",
+  "order": 12069
+ },
+ {
+  "file": "phishing_pot/email/sample-12070.eml",
+  "sha256": "9d31e30c95d773b0a7a1d368421e5d473044e1d009a51e5c33c0ed885c8e16ae",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:a6d06e78d3963f062616226817f25b92394d5447",
+  "order": 12070
+ },
+ {
+  "file": "phishing_pot/email/sample-12071.eml",
+  "sha256": "c2e9462fea4e8e7572dc8bfdf5218107e49a8c7a901bd4c2efccc7db928f913a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e2e9ffbdc131141ee6cd4a0845acf0fefcd7e9e2",
+  "order": 12071
+ },
+ {
+  "file": "phishing_pot/email/sample-12072.eml",
+  "sha256": "57938c0914351ef31818139cfa0757ec4005a5b3a190799c8ff6a66d74be2d8a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:5a681b61351a37852a41f948ac79e5a7e82948bf",
+  "order": 12072
+ },
+ {
+  "file": "phishing_pot/email/sample-12073.eml",
+  "sha256": "b84eb61ae175bc7a1e4d6a01e768f8ec6929909a4719311d07a05b241abfb3b6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:f84ea26695aa686c778abbdd7077c38902d43da3",
+  "order": 12073
+ },
+ {
+  "file": "phishing_pot/email/sample-12074.eml",
+  "sha256": "2f4c2e7a63754670b09aef6fd695c55bfd0a1daa44b7a1b97470a9bc18ca2c04",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "dev",
+  "group": "body:e6e5fe5ad77f9ba8e64cc08fa22e97839689f81d",
+  "order": 12074
+ },
+ {
+  "file": "phishing_pot/email/sample-12075.eml",
+  "sha256": "1348403fe0e2435048cacbc48b8a6e1393cedc64889e41bfc2d9bc5345de8320",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:9ef343b3f2370dbd1119eef8c3a45f07477c057a",
+  "order": 12075
+ },
+ {
+  "file": "phishing_pot/email/sample-12076.eml",
+  "sha256": "77a14fda79613729a5ae6e888a50d2a7ccc6a3a6cf96c36eb952d1525cb9055c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12076
+ },
+ {
+  "file": "phishing_pot/email/sample-12077.eml",
+  "sha256": "b24c37165ab52008dcab33327085f49b2f41d73fa9f44280afb62b91096bcf05",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12077
+ },
+ {
+  "file": "phishing_pot/email/sample-12078.eml",
+  "sha256": "abc0ee90284cf662535148b7002bf980e0c7302810f040e8206caf8552f55566",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12078
+ },
+ {
+  "file": "phishing_pot/email/sample-12079.eml",
+  "sha256": "7ffa18afba90a2b97c82fda9dcb359fb3c017eeedbf280a0af2d3316e0bae122",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12079
+ },
+ {
+  "file": "phishing_pot/email/sample-12080.eml",
+  "sha256": "e9c6aa3e168f82acc003f46e4ea0ebd8e238d358f565d7a38d957aad389bf266",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12080
+ },
+ {
+  "file": "phishing_pot/email/sample-12081.eml",
+  "sha256": "85d1ad1b13f20b6510abbd04346d45786b263a97fd03d86c8a97a4fcf67a1499",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12081
+ },
+ {
+  "file": "phishing_pot/email/sample-12082.eml",
+  "sha256": "cd72c49679bc7b9c0318d1289a336269f6f73ff8275c159d5ed56e1728cb2f74",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12082
+ },
+ {
+  "file": "phishing_pot/email/sample-12083.eml",
+  "sha256": "4d1ce3a766d87dc0f6557902b9083865028c2027848d691c9fe37935179d5c90",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12083
+ },
+ {
+  "file": "phishing_pot/email/sample-12084.eml",
+  "sha256": "246fcc80378e951e6e9d2bb75a6eb22c0dd109eb52cf9b8467474b86174ed752",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12084
+ },
+ {
+  "file": "phishing_pot/email/sample-12085.eml",
+  "sha256": "d9d8fb8af4e5ed8d44df39ae336930fc4d6bbe786bd090e75c9e29205abe7148",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12085
+ },
+ {
+  "file": "phishing_pot/email/sample-12086.eml",
+  "sha256": "5df8d2aa911e44cbf4dbc883f7c0455cbe74398712464363d37fd57452dbc4d8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12086
+ },
+ {
+  "file": "phishing_pot/email/sample-12087.eml",
+  "sha256": "405a3ad5ac9805f2cdd77733e8a47f0a224484e37436256d9e75940f59405e1d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+  "order": 12087
+ },
+ {
+  "file": "phishing_pot/email/sample-12088.eml",
+  "sha256": "3cc700d8f1e273e85941c09271d95f04d531dbb04d4bdfbe45e0dd1a8b254150",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:e8732c4023d290cfc405499aae3ff39b2873fcd6",
+  "order": 12088
+ },
+ {
+  "file": "phishing_pot/email/sample-12089.eml",
+  "sha256": "814c5d401fcc178c8dbd3c831ec6828a277887b16131ea39718554b5037eec8d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c4a1fc09ba9e094336563bec2f6e0a8a94ef4129",
+  "order": 12089
+ },
+ {
+  "file": "phishing_pot/email/sample-12090.eml",
+  "sha256": "8943c5b50164d7dd2b67a965edec0f2112ed2623e5f79e55bbdfb20519b7f066",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:9571158666c047ee276163ee4fdce24768cdf390",
+  "order": 12090
+ },
+ {
+  "file": "phishing_pot/email/sample-12091.eml",
+  "sha256": "1ff08f107be5840c79ec438a57eab51adadbe64e4ef72ee1ad08b8f0bfb1463c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:9571158666c047ee276163ee4fdce24768cdf390",
+  "order": 12091
+ },
+ {
+  "file": "phishing_pot/email/sample-12092.eml",
+  "sha256": "234a24725b6061f9fc4fe6a6ba8541c9fc31924db5f7f8d4620818a4b07987d1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d63fe5607ef5ecd9d9b3aeaca121575a2ee3b7b3",
+  "order": 12092
+ },
+ {
+  "file": "phishing_pot/email/sample-12093.eml",
+  "sha256": "fbaa894fdb6c67bf01dbe39f1d36867659b645a1617988e0cade70f9b729eb3c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d63fe5607ef5ecd9d9b3aeaca121575a2ee3b7b3",
+  "order": 12093
+ },
+ {
+  "file": "phishing_pot/email/sample-12094.eml",
+  "sha256": "9d1f641ef9745bd33e23da40a872b8e5bbcd5e07d1046f341284308a59e8f1aa",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:98927341b745b779bc8fd879de011ee93b8c8381",
+  "order": 12094
+ },
+ {
+  "file": "phishing_pot/email/sample-12095.eml",
+  "sha256": "9e38f5382afb881d4c3ca1a89033519bb9aa2e69b08b8de076b55604dd81583d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:47b2bc60ddeee94b1ae1a20896fa81801bb1a0e7",
+  "order": 12095
+ },
+ {
+  "file": "phishing_pot/email/sample-12096.eml",
+  "sha256": "d361f17f1d99b4c5241e9bac3e2469a3296cd211e6dfacc88e9d140f9bc9e1eb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "subject:phishing pot complete our survey to win a riverbend ",
+  "order": 12096
+ },
+ {
+  "file": "phishing_pot/email/sample-12097.eml",
+  "sha256": "e08779e5e78e9ec0678d59d4315e12e7f0d27c9d265a579e51d96af5d14428d1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:816001ae12d4fe8513b7059571e502a670469511",
+  "order": 12097
+ },
+ {
+  "file": "phishing_pot/email/sample-12098.eml",
+  "sha256": "904088e9178d8b1802af9350ef596e5387fdd5f359b863cae1197f0ce360fb19",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:6e3b2f19e5aba8964e6c1d1e9f73623fed50a439",
+  "order": 12098
+ },
+ {
+  "file": "phishing_pot/email/sample-12099.eml",
+  "sha256": "805f849a4bf301070782e8693bcc2df65055b2525087e2e5c61dd7ceddfa18c0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:f226cd7a97e7e9f97ec222a7532b830abcb1854e",
+  "order": 12099
+ },
+ {
+  "file": "phishing_pot/email/sample-12100.eml",
+  "sha256": "68c426923cf2f30753432bf95b47552c46cd76807100a3b3fa3b32ec91be455b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d182e0e8b994b65f292a6fabaf4b169e3511e828",
+  "order": 12100
+ },
+ {
+  "file": "phishing_pot/email/sample-12101.eml",
+  "sha256": "707a8757da53e1f4b358f594fe1b9645aa199f231858407594768fb762b63670",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:0e378e94c36e2a68c1d41ae4a3dbb0eb685c360e",
+  "order": 12101
+ },
+ {
+  "file": "phishing_pot/email/sample-12102.eml",
+  "sha256": "14df6bab2f9b06e43f234ef5767ccbcb9b11a020a282fec4c385bc831ab4574d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7916f99e9f8bf7c8e7e383959a45ea6365e5a157",
+  "order": 12102
+ },
+ {
+  "file": "phishing_pot/email/sample-12103.eml",
+  "sha256": "b00c0f5988737cd207da8d1bbfef328e57f1fbce9567575db2a79eeac2251c62",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:bb3cdf866c742acbe945e863c5d83d08edc93e12",
+  "order": 12103
+ },
+ {
+  "file": "phishing_pot/email/sample-12104.eml",
+  "sha256": "6ecd6a575f88d8c9fc1f6e92899cb0a8a3ea02c2e13bd5f9da200cb1af0d45db",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12104
+ },
+ {
+  "file": "phishing_pot/email/sample-12105.eml",
+  "sha256": "298ec07e7a2c910d36ea91551fb9ff012e14545582ed31d9985499bd6259da5a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12105
+ },
+ {
+  "file": "phishing_pot/email/sample-12106.eml",
+  "sha256": "a524b3321bea5a8faa68f814402b6181fe9e8fcf87f346960b8366828f3a230d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12106
+ },
+ {
+  "file": "phishing_pot/email/sample-12107.eml",
+  "sha256": "62977cdc30248892a53b02344c4f7a97a29f97b1caa4c84951333219a86f211e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12107
+ },
+ {
+  "file": "phishing_pot/email/sample-12108.eml",
+  "sha256": "a846a11a2d8b4d938097d9db43dc0122d341b4618cac22f8ea5aae573eea5216",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12108
+ },
+ {
+  "file": "phishing_pot/email/sample-12109.eml",
+  "sha256": "1db04c678ecf6599d5951dd2a3338f76b5d368835706e7a6d67113ac7d0d0d3c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12109
+ },
+ {
+  "file": "phishing_pot/email/sample-12110.eml",
+  "sha256": "434174b876b16ee32b3050ea6d82b8d8aa611a88c6597d6790297766817dd8fc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12110
+ },
+ {
+  "file": "phishing_pot/email/sample-12111.eml",
+  "sha256": "1b26ac87a79ea90b88b13a63050c5e8282fd5e4c3498ac2ee86b6d3f8f7433e1",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12111
+ },
+ {
+  "file": "phishing_pot/email/sample-12112.eml",
+  "sha256": "6894fe72e20b446f8f15d5a68c2a514c88427eb0021eda03921ed444aba1e43e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12112
+ },
+ {
+  "file": "phishing_pot/email/sample-12113.eml",
+  "sha256": "512727cfd5fe89838579366ebe305ea41483a55225fc687bf18989e082d894c8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12113
+ },
+ {
+  "file": "phishing_pot/email/sample-12114.eml",
+  "sha256": "2d1ee4053056fcf64f55bd7d3fd86f353540cbf0a37bf0f0e4db6e39aad71850",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12114
+ },
+ {
+  "file": "phishing_pot/email/sample-12115.eml",
+  "sha256": "014223fef4efe6a51b5a9ec176f75e5afafc219ebb00d368b8214742effb1a96",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12115
+ },
+ {
+  "file": "phishing_pot/email/sample-12116.eml",
+  "sha256": "4430a1aa8eabc01e14bfc4921f2ecb2a42236f05cf24bd54bb64575e76994212",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12116
+ },
+ {
+  "file": "phishing_pot/email/sample-12117.eml",
+  "sha256": "0521c54308c023463293b0708048626b2f64b5d7c7a1e8da9e26f3200550ec3d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12117
+ },
+ {
+  "file": "phishing_pot/email/sample-12118.eml",
+  "sha256": "5faf741b34f00b41295b5e1537b8e1d2764b37c2b9d757ea8befca3efe611baf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12118
+ },
+ {
+  "file": "phishing_pot/email/sample-12119.eml",
+  "sha256": "5e5e50c92b8093ad05ae718c35f03357706603847c51f135b9c5f3ac5671afdf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12119
+ },
+ {
+  "file": "phishing_pot/email/sample-12120.eml",
+  "sha256": "38405d907bd244d4b3c846fe5a21c948fd4e9f683726e2762cf4067a92a7e94d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12120
+ },
+ {
+  "file": "phishing_pot/email/sample-12121.eml",
+  "sha256": "67d052401c07f4d8b5e74d20c880c3858aba11f3b445229fc21f4fcd78883e99",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12121
+ },
+ {
+  "file": "phishing_pot/email/sample-12122.eml",
+  "sha256": "8410915819c3c89fb171665844d619533cc78324b0c14aefae57122113f74117",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12122
+ },
+ {
+  "file": "phishing_pot/email/sample-12123.eml",
+  "sha256": "7cf1851587a25f0adbdbe4f8f5e4776db4f8cdc70d2a68f18b4ef883438a70cf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12123
+ },
+ {
+  "file": "phishing_pot/email/sample-12124.eml",
+  "sha256": "2c0c6e64771bb1f389f32bd6f3111066cbe5e605ccd641dcdf7904f3c855efef",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12124
+ },
+ {
+  "file": "phishing_pot/email/sample-12125.eml",
+  "sha256": "0df2a0c73d5e1eabfb1013a0a1da2d42684e649bf95d7137c270383546b742e8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12125
+ },
+ {
+  "file": "phishing_pot/email/sample-12126.eml",
+  "sha256": "ffaeedb7a4bc985ccfe87f4b60ec09feaba72ad5ae427077365ad0d111f08341",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12126
+ },
+ {
+  "file": "phishing_pot/email/sample-12127.eml",
+  "sha256": "7a299722200b6d6a5025125dd4a6b6f21c126d756897fb24da8007590f2333e3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12127
+ },
+ {
+  "file": "phishing_pot/email/sample-12128.eml",
+  "sha256": "9a7eb149bf0daebf7a72906aabf4378f897022489b40fdcccbee1f9498fa8ec6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12128
+ },
+ {
+  "file": "phishing_pot/email/sample-12129.eml",
+  "sha256": "c74a8c70c1721ffbfe39d644f18515905809258ecdf387e360abaea40f6737ea",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+  "order": 12129
+ },
+ {
+  "file": "phishing_pot/email/sample-12130.eml",
+  "sha256": "0ec4c6c3d5996f65e70ca841d9117d48b0d92969c71ec1a36c19d39175bdcc30",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:880d0eea44ed518f2b35b556aa8110958691ff95",
+  "order": 12130
+ },
+ {
+  "file": "phishing_pot/email/sample-12131.eml",
+  "sha256": "616fa820b14e3575cdd47e1f78f42992a83cd103de6886c8fc5ac98c7d888ab3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:880d0eea44ed518f2b35b556aa8110958691ff95",
+  "order": 12131
+ },
+ {
+  "file": "phishing_pot/email/sample-12132.eml",
+  "sha256": "5652d8344f523ca2382e9d5af812c3db44252f992683f9057f536e4f7dfd5d19",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+  "order": 12132
+ },
+ {
+  "file": "phishing_pot/email/sample-12133.eml",
+  "sha256": "7526d529afd62ce28e91650a9db97d7c2f7cd6b84c80006a6372f3f3a62177b0",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+  "order": 12133
+ },
+ {
+  "file": "phishing_pot/email/sample-12134.eml",
+  "sha256": "f4345fc2ad3ac7d43cfd4bd1c838d4e5381eb84400f0f553177b7984f3d085a2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+  "order": 12134
+ },
+ {
+  "file": "phishing_pot/email/sample-12135.eml",
+  "sha256": "f51e7ffac438ce7bffdb8119844fcb396b1f1285183293fd7a64e502ce4cb8e4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:f1562f65e3434b659e98e606f629907fcc684708",
+  "order": 12135
+ },
+ {
+  "file": "phishing_pot/email/sample-12136.eml",
+  "sha256": "e696e78981fc3504f8acef1035fbdde71643f62da73888d404462ddb13422dd4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "subject:\u00faltima advertencia almacenamiento lleno archivos eli",
+  "order": 12136
+ },
+ {
+  "file": "phishing_pot/email/sample-12137.eml",
+  "sha256": "3b784d81a77eb34e3e249be4f472fcbdbdabc30dc10d027712e44f7a8a23fca8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:fe519c3161aa8d4379cce0a59689c7b2bf349e9d",
+  "order": 12137
+ },
+ {
+  "file": "phishing_pot/email/sample-12138.eml",
+  "sha256": "39f012db7a19ce3a6ac59a33bb0c000dd22638ff7466ea30d94188df1b933f2c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:89d276e535d4e8ef46708a4a8d4b526299315de6",
+  "order": 12138
+ },
+ {
+  "file": "phishing_pot/email/sample-12139.eml",
+  "sha256": "be3a50b591518ce5d5be983a7eed152d2c3b9fa52851ec74ad8a6b9114421d77",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d0532fd72a251b5fe81ca61efd43a163cfb05a16",
+  "order": 12139
+ },
+ {
+  "file": "phishing_pot/email/sample-12140.eml",
+  "sha256": "3da60cd00f685f9a76809e04221678355ad3e760ad72854874510919281407b3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a3db507b3ed1e91d5d2cc3f3135d1c5f7234bb63",
+  "order": 12140
+ },
+ {
+  "file": "phishing_pot/email/sample-12141.eml",
+  "sha256": "d76404e3c19bf43e3305897f19978598765f4000676fc54e88d254c9eb514c9b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:557cd680bd00c07389adc85f509114fc7a271bdb",
+  "order": 12141
+ },
+ {
+  "file": "phishing_pot/email/sample-12142.eml",
+  "sha256": "63b61e54009233050a34bfd8e2ef2811c8cf9adefbe0e868c1441dd20b221df2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:557cd680bd00c07389adc85f509114fc7a271bdb",
+  "order": 12142
+ },
+ {
+  "file": "phishing_pot/email/sample-12143.eml",
+  "sha256": "bbf0e59197c151ded255d8720895a61de79c36e0a96122d2f5c2b797fa41ffbf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:70508b3b727cd539d76b7e208e64b704937a55b1",
+  "order": 12143
+ },
+ {
+  "file": "phishing_pot/email/sample-12144.eml",
+  "sha256": "ac197c195f4d16a19004eb0f7f576bb5f5455c77d530a70f681be7c471323fa9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d8d40b93275edae77b03ea90d81e0e7a94877c39",
+  "order": 12144
+ },
+ {
+  "file": "phishing_pot/email/sample-12145.eml",
+  "sha256": "484f65d2fc8bc36e324399dfe3dd44f658766c53df07b11748c5221e47a8b483",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:61119edd8164b74b2b443acc1e109f0ee85d6f72",
+  "order": 12145
+ },
+ {
+  "file": "phishing_pot/email/sample-12146.eml",
+  "sha256": "ed304d8c74658af4a0bedc6d8a6bedb1b77dfca7c56e4f4fbc80b56889deec21",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7d0351a8322265cd790d686b24e1447c210d4c56",
+  "order": 12146
+ },
+ {
+  "file": "phishing_pot/email/sample-12147.eml",
+  "sha256": "445ff14c18409eae23308f4799cdfe032c2397d7abbe8bb351ac1ed75691725e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:5a4f64b882a525baf1c6806405e8d9e5d9bb9771",
+  "order": 12147
+ },
+ {
+  "file": "phishing_pot/email/sample-12148.eml",
+  "sha256": "02977b09e9acaa5158719cfaefc4ff0570f5e0ee9991e5601b3e1af17583f96b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+  "order": 12148
+ },
+ {
+  "file": "phishing_pot/email/sample-12149.eml",
+  "sha256": "acfaec4a5cf5576646a34bb46c82bc93d661648b46f9a304fb9f08af39ea0e1b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+  "order": 12149
+ },
+ {
+  "file": "phishing_pot/email/sample-12150.eml",
+  "sha256": "ca8a7d89dcc95e8ed33f12fcdeb4cd7c3600c67ee1f35a37d16dbbb1d03a6249",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:51d0eaca2b8c34b7c953a4a3a218fbe67b891f2b",
+  "order": 12150
+ },
+ {
+  "file": "phishing_pot/email/sample-12151.eml",
+  "sha256": "047964f1fe5c47921fe77e623eb81b56a61363e7cecf102fb8b873f37d4f66fd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:f4629e143e2b7b9dc9146dcf734c3fa3f149fc38",
+  "order": 12151
+ },
+ {
+  "file": "phishing_pot/email/sample-12152.eml",
+  "sha256": "feac32261add710855cb311d487c15c7da461406a3ef257cac0cc1337f6d2505",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:0a1821e0190425b49678c57b669b08a301c6859d",
+  "order": 12152
+ },
+ {
+  "file": "phishing_pot/email/sample-12153.eml",
+  "sha256": "911ed60453aad836a9da87640513ee2688520f48bfc2f8756c09e2265c29d5bf",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c0a3b580394dcccc20cfb1e7d56564242f14e2c7",
+  "order": 12153
+ },
+ {
+  "file": "phishing_pot/email/sample-12154.eml",
+  "sha256": "0f25a44c459274078f6be6b36854283af54794bd23f3642aab692b3d6313cf4d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3e888efae9c18583f6df8094252f32b8eadb75d9",
+  "order": 12154
+ },
+ {
+  "file": "phishing_pot/email/sample-12155.eml",
+  "sha256": "9b60bf36e4adc01ae2b696f0d388b53a027da6f7b7c8c689845166ec09208917",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:cd561c9a56c2d00b6f3508cf291db59b9df5020c",
+  "order": 12155
+ },
+ {
+  "file": "phishing_pot/email/sample-12156.eml",
+  "sha256": "d79c6af798e965bca703f59d7c6a1875eb61735fd3b79b0d737179e9936958ed",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:fca69539a8944fd0fd106ecbbbc0f746359212a8",
+  "order": 12156
+ },
+ {
+  "file": "phishing_pot/email/sample-12157.eml",
+  "sha256": "bd331a75323a42b7e90150427c088113f7dee1926d556785b6fd3face6425bcb",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:36d024df3bcf133231a53ba809073a3931323123",
+  "order": 12157
+ },
+ {
+  "file": "phishing_pot/email/sample-12158.eml",
+  "sha256": "e54bfe46f2347715d348976dc599f6b795715a5202401b5704f71b11a5d6ec15",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:5167bdcaf6e8e193404b8b60a11259eace2aa631",
+  "order": 12158
+ },
+ {
+  "file": "phishing_pot/email/sample-12159.eml",
+  "sha256": "91a18a9e8fca20ca0580b267c472cf2274e4a49614b07525672662818e96d3ae",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:59dd5a2f619f7c2c86a04b0b6ad17b27493d30a7",
+  "order": 12159
+ },
+ {
+  "file": "phishing_pot/email/sample-12160.eml",
+  "sha256": "0b0380c5259a6b44b239401e6957c9138a25a61106bd52282e059f8213567ba8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12160
+ },
+ {
+  "file": "phishing_pot/email/sample-12161.eml",
+  "sha256": "995690dd4b74d4e35d222e6e91af6c218f6c796d4c5db8263196e770bb3c2135",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12161
+ },
+ {
+  "file": "phishing_pot/email/sample-12162.eml",
+  "sha256": "4c7cd84c393fa6433c5784648f1d2b17e78e83e4660e2ad72cdd303519076109",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12162
+ },
+ {
+  "file": "phishing_pot/email/sample-12163.eml",
+  "sha256": "edb2d6ff74fb44d3cdc522f40f0a44ca3f17d5f1b089b08fc6cbc582d2fc6f89",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12163
+ },
+ {
+  "file": "phishing_pot/email/sample-12164.eml",
+  "sha256": "b4842514db5e5ab08927e33f4e672397c890e5abd24032c2f663896efb7ed55a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12164
+ },
+ {
+  "file": "phishing_pot/email/sample-12165.eml",
+  "sha256": "43ac9480deaeb73b59ec016dfc637781494f0caaab9406931eba56c2104596b4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12165
+ },
+ {
+  "file": "phishing_pot/email/sample-12166.eml",
+  "sha256": "416e78eae7dfcaa4427cd45851cb2195b29bba912a3fd577899d53e3e723020e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12166
+ },
+ {
+  "file": "phishing_pot/email/sample-12167.eml",
+  "sha256": "cdb314b8aa6f604d3923e22d989255f81d0ba895f9aded094549e3c974375c5b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12167
+ },
+ {
+  "file": "phishing_pot/email/sample-12168.eml",
+  "sha256": "ab4445c3763a33d2eb056fb7314766497e32a2c64b5c807b566ffa105849c17b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12168
+ },
+ {
+  "file": "phishing_pot/email/sample-12169.eml",
+  "sha256": "6fe7014c2eb34fc041e89306a6d1f82b2975f18c872ee5f33b7ccfa361538387",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12169
+ },
+ {
+  "file": "phishing_pot/email/sample-12170.eml",
+  "sha256": "0288468b586376d9a93fbb281d962b76d091df9165c004fe5aea9f381cdb13e6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12170
+ },
+ {
+  "file": "phishing_pot/email/sample-12171.eml",
+  "sha256": "4f53e00b72189e22d2197318d02a907fda3ef9ee4e1ce209d112909a412deef6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12171
+ },
+ {
+  "file": "phishing_pot/email/sample-12172.eml",
+  "sha256": "e66da7703a27c9d3a602a0090725183f8bc5a27d50de6562fdeb5abebca86790",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12172
+ },
+ {
+  "file": "phishing_pot/email/sample-12173.eml",
+  "sha256": "dee98fe7e1f70a358767664a1f2349e8dd0aeee0082f50f2c02304c71cccecfd",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12173
+ },
+ {
+  "file": "phishing_pot/email/sample-12174.eml",
+  "sha256": "7c909ef93a5b205623f3bc09ed0abcb27419662ecf2f56aa595fa2009d2f4262",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12174
+ },
+ {
+  "file": "phishing_pot/email/sample-12175.eml",
+  "sha256": "83f4e5aa44f67c736bc6818b6aa12df3bd6b6b12673a6c74c35b07be5fbf1642",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12175
+ },
+ {
+  "file": "phishing_pot/email/sample-12176.eml",
+  "sha256": "d9fdb8e2ec42fd07e2596322ee633f4aad6024ed03b920114043ff553ab68fc5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12176
+ },
+ {
+  "file": "phishing_pot/email/sample-12177.eml",
+  "sha256": "c7c39f274463bc1c2ef89a6e474d9241784a212d46d618ec415814fff901d1cc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12177
+ },
+ {
+  "file": "phishing_pot/email/sample-12178.eml",
+  "sha256": "4d09cec76c5f541262de804b75095f12d5ac52627bde7c2b0f125085c700b7f5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+  "order": 12178
+ },
+ {
+  "file": "phishing_pot/email/sample-12179.eml",
+  "sha256": "5decc50877a270456ce2ac72b611e7e17af731e4bbd9a1c0b2578e321c2489e7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8720b5d55c82211531d411eaf3f1e560b3a6d7fc",
+  "order": 12179
+ },
+ {
+  "file": "phishing_pot/email/sample-12180.eml",
+  "sha256": "40061f6a54bce3aa5cebcbc2567e48ce0806fa10a194ce5c570ba0602df5dcea",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:4a4e25d875d39dd8ad938e962ae2b0f6ecac25d6",
+  "order": 12180
+ },
+ {
+  "file": "phishing_pot/email/sample-12181.eml",
+  "sha256": "5c7e2f55d3a707e3b5d019910d272a7d1f78f703c3991999f089ca828ba290b5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:fc4f633fdd48a04cf35953d83be5a18357eb5563",
+  "order": 12181
+ },
+ {
+  "file": "phishing_pot/email/sample-12182.eml",
+  "sha256": "51f613f44619e829fb090adbe5930691fc222b29cab483287491ae634dbc706f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:4422d4a4950d02f487cf312adfbc07c1e5423607",
+  "order": 12182
+ },
+ {
+  "file": "phishing_pot/email/sample-12183.eml",
+  "sha256": "7f6023f0214b4e6d872314653290a7304cea96966e178a06a4f66cd885bcf655",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+  "order": 12183
+ },
+ {
+  "file": "phishing_pot/email/sample-12184.eml",
+  "sha256": "d6107dc60cd3dc494db70c8745b8578be4ee145ca5ff761950fde5008ffcc4a9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+  "order": 12184
+ },
+ {
+  "file": "phishing_pot/email/sample-12185.eml",
+  "sha256": "09358e4579b9e5a8945deb07ad3fe3c26eda95a2efc2491432d9ca32a8fa9892",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+  "order": 12185
+ },
+ {
+  "file": "phishing_pot/email/sample-12186.eml",
+  "sha256": "b4ff4906c56363ef72f2d809de6e7a47eaf838a7b05acf4d7ebd23031b2be4ae",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:6169a080c2237109cac4be908ce518d9a6270a43",
+  "order": 12186
+ },
+ {
+  "file": "phishing_pot/email/sample-12187.eml",
+  "sha256": "1422182e8d416076d3be75a88dc4f196f5718cb8ad19b2bec4276524c5168238",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d2c0def5996967c7603daedaa9fc557a51d26298",
+  "order": 12187
+ },
+ {
+  "file": "phishing_pot/email/sample-12188.eml",
+  "sha256": "259f0ff091521e23dc5884defe9e78fdae7caa83aced508e07071dfbd2412053",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:abd1fad7420c6c0e44d928862007e424eea24e73",
+  "order": 12188
+ },
+ {
+  "file": "phishing_pot/email/sample-12189.eml",
+  "sha256": "4993eaa50c48830e17e362738da1d6800618b44dbc27e8c9e482dafe004739c4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:e6b066eefbbae271296980ee992d0194d6cdd149",
+  "order": 12189
+ },
+ {
+  "file": "phishing_pot/email/sample-12190.eml",
+  "sha256": "7275855476149fd97f22e04a9bcb22b5431e8495c901a82e8942931b8dae3b49",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:b566fae22b50bed8d3480379dcf8a9425518aefb",
+  "order": 12190
+ },
+ {
+  "file": "phishing_pot/email/sample-12191.eml",
+  "sha256": "b079ce332dcdb04f7e5d9d4f70958c63e3f72536dfdd35d626e07fd96bda639b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:bb70227268a9b47955ae771839d617ba92abcdb9",
+  "order": 12191
+ },
+ {
+  "file": "phishing_pot/email/sample-12192.eml",
+  "sha256": "b2a8497404aa1d2241e6f798f8bd96b909ff1f935d0dca6c367960cf22f26eb5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:b7ec0556d1190afdbdf99a01b600f8d9a590eafd",
+  "order": 12192
+ },
+ {
+  "file": "phishing_pot/email/sample-12193.eml",
+  "sha256": "ae4c02130c0b35723c983e9eef7d5476a2594fed991fdd762ad5c2d871338e01",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a1b0a339ae637f4d646b0e7cbf2ab23eeaaf2510",
+  "order": 12193
+ },
+ {
+  "file": "phishing_pot/email/sample-12194.eml",
+  "sha256": "58c3aa3d648a13f4471647810ba846d88911f14bf3154d6234d5d0824495a456",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:78d7c06b5d4b55161bd21a701569105f80ab9a29",
+  "order": 12194
+ },
+ {
+  "file": "phishing_pot/email/sample-12195.eml",
+  "sha256": "7ffba725bc72cdad99b31599249b50c499f9bd4bbafd8950a3b991d19a394196",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2c635ad686f1d7506a745eb34ccf81a7584e97e9",
+  "order": 12195
+ },
+ {
+  "file": "phishing_pot/email/sample-12196.eml",
+  "sha256": "c33970eb48f5a78f3c122eb2b1ef4c3c81b41915c7f658636eb62a0b95f91ae5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "subject:silvercrest air fryer",
+  "order": 12196
+ },
+ {
+  "file": "phishing_pot/email/sample-12197.eml",
+  "sha256": "bf70700bfad9f4d1b221d1155e2b8e4fbdf4748e26ee3431c26eaeaf6879b3f9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:caa782e92beb7eb56dbccbf4d9110dd93579b530",
+  "order": 12197
+ },
+ {
+  "file": "phishing_pot/email/sample-12198.eml",
+  "sha256": "d0e9e08519a8f967613bafd17740398b1f14fbc680d16f544d2245384221fc44",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:be0c5f539ad0871ff0e41424373a82cb0cd9ddac",
+  "order": 12198
+ },
+ {
+  "file": "phishing_pot/email/sample-12199.eml",
+  "sha256": "e9099891d2c4d79f7a97b2ed363833f5fd16e670cb31a5ac62bcc6bac6500a5f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:68570259954ee5d706b4a937e40cf3f09eb0ade9",
+  "order": 12199
+ },
+ {
+  "file": "phishing_pot/email/sample-12200.eml",
+  "sha256": "5293cfc7ad89edcdd4e4057bf332dc8b51e4abead668c70cf035da1feb39bd9d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:88922ca32943c9383a7dfe70e6063c8ae450502f",
+  "order": 12200
+ },
+ {
+  "file": "phishing_pot/email/sample-12201.eml",
+  "sha256": "07788f8b1450526f6bdbfa9bf4db4d2b5a4fa3dd0e6f6446d3273534af80eb74",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:88922ca32943c9383a7dfe70e6063c8ae450502f",
+  "order": 12201
+ },
+ {
+  "file": "phishing_pot/email/sample-12202.eml",
+  "sha256": "f481b9fab087fb878b1ee72709bf9591ee639c7719e2a12c41b81cd84d813d57",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:2d153871145f89da7f948afbc9bf34a18d0d9d90",
+  "order": 12202
+ },
+ {
+  "file": "phishing_pot/email/sample-12203.eml",
+  "sha256": "710a63efd2fd4e952ee5eec83ca3b9fd212e8b18fa3fec78910df8e386faa63b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:71f86b049d1a50c652045f8cb9415fb0a7ce2073",
+  "order": 12203
+ },
+ {
+  "file": "phishing_pot/email/sample-12204.eml",
+  "sha256": "7f23c4501ca80422b35e2e4433efdb771ca0a2d3896e51d04146fbefc701096a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:252afa8b158b4837f17f97c3912ff2cc883a2431",
+  "order": 12204
+ },
+ {
+  "file": "phishing_pot/email/sample-12205.eml",
+  "sha256": "01d1359bbba29759809b633ad9c5f8895a3d1928192161e0b2548c4c6253f162",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:252afa8b158b4837f17f97c3912ff2cc883a2431",
+  "order": 12205
+ },
+ {
+  "file": "phishing_pot/email/sample-12206.eml",
+  "sha256": "88333bff4222752b69818d34df9fcb3d6d37c1699df61fb4b6b257e0c43ab4fa",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:9af945f83932c0a7e27eadcbbaea34743d19a84a",
+  "order": 12206
+ },
+ {
+  "file": "phishing_pot/email/sample-12207.eml",
+  "sha256": "24acd6ea7e9cbafdbbc2cf2eab956725fdeb6d62f5e0c6f5c2bd461f61bfec1b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12207
+ },
+ {
+  "file": "phishing_pot/email/sample-12208.eml",
+  "sha256": "9f4fcbd4b0bdf81dc5d4b89e3e98aa10ae09c0d02f8e1ddd6c61972f2fc9fec8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12208
+ },
+ {
+  "file": "phishing_pot/email/sample-12209.eml",
+  "sha256": "20531a0b0ba4fad8a5cab0071a9827a1dd30e772969f7902f719ea769ca181e5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12209
+ },
+ {
+  "file": "phishing_pot/email/sample-12210.eml",
+  "sha256": "cf8cf78a29006a6cacb9cf6610cfbe6e277ed2cd100f68603775a2b0b7904e81",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12210
+ },
+ {
+  "file": "phishing_pot/email/sample-12211.eml",
+  "sha256": "1b281aebb0618d533e166fb942766dc2e02e555de1c617c1d48a5ed5a7f775cc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12211
+ },
+ {
+  "file": "phishing_pot/email/sample-12212.eml",
+  "sha256": "9cebec0d9a7699c4e122168dc5932911c1681535c585575494873397cccc2f00",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+  "order": 12212
+ },
+ {
+  "file": "phishing_pot/email/sample-12213.eml",
+  "sha256": "ae52e8aaac5cdff5a1a8f17e648e66564de59c0dc0feff48758c332328e45255",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:05d153b83086847900aaa71b52661f3a1db6966f",
+  "order": 12213
+ },
+ {
+  "file": "phishing_pot/email/sample-12214.eml",
+  "sha256": "c18d601704c3cd6e132773509aff3720d48afea30280edef03493b9f1a16714b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:24eb114c54ce81caf5facfb3b2a290941158ad53",
+  "order": 12214
+ },
+ {
+  "file": "phishing_pot/email/sample-12215.eml",
+  "sha256": "0e9ebfacf50100824e7fe68e10bd5b9bf2251c34d8fcbb3a2600f1c93fee9b89",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:7e2d775d7b6eab951e8c750abd4fb2de959d2bfb",
+  "order": 12215
+ },
+ {
+  "file": "phishing_pot/email/sample-12216.eml",
+  "sha256": "9250cf48019c687e4863f00bbd771d941c8467c992bed31d022a1a2c4e42e32e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:07d522ef8f06e02a845b58954ea8572cf95dfcc2",
+  "order": 12216
+ },
+ {
+  "file": "phishing_pot/email/sample-12217.eml",
+  "sha256": "ddcb9330db15f1c4b78e8c841fed0768f4231bff36e1e6230334898ce859ce6a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3c92b7f7e807991add27cf9058a36975cbe78647",
+  "order": 12217
+ },
+ {
+  "file": "phishing_pot/email/sample-12218.eml",
+  "sha256": "59faba9ea07dc16e411c42395f4325346143cf134715aaaeece00e08f6aaeb19",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+  "order": 12218
+ },
+ {
+  "file": "phishing_pot/email/sample-12219.eml",
+  "sha256": "d86ab71b68507d333d1809fa471dff26b1daa4bbd0060b1d4c264319a7ff27b5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+  "order": 12219
+ },
+ {
+  "file": "phishing_pot/email/sample-12220.eml",
+  "sha256": "25ac5e781ba5feb101c09a60f486e6bd8607e5eadd1ee12c6a1dbb8bbc43e11d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+  "order": 12220
+ },
+ {
+  "file": "phishing_pot/email/sample-12221.eml",
+  "sha256": "2ac69b0b18590da0928e580224c873a9a077f36b30237f4268d1e4ec0807217c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:600222b3eee9d031e258ac777f0dd54f979bb9ab",
+  "order": 12221
+ },
+ {
+  "file": "phishing_pot/email/sample-12222.eml",
+  "sha256": "ffbe762c7e12cbf4b898927aa51b22304b74b3eee8075736d53bc42502659c9b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3e350ece163bbc53ffef4c8f0d04914c67229a03",
+  "order": 12222
+ },
+ {
+  "file": "phishing_pot/email/sample-12223.eml",
+  "sha256": "022cb4c1de2dbf5a55d8bae537f8c2e5a9dc476482b3beda8ab066185f00390b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+  "order": 12223
+ },
+ {
+  "file": "phishing_pot/email/sample-12224.eml",
+  "sha256": "ed0775c46cd41aaa6861457bb0ba232bf6c5b531a2c43d631895a499b9043711",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+  "order": 12224
+ },
+ {
+  "file": "phishing_pot/email/sample-12225.eml",
+  "sha256": "d7f5c750e245bb742113c6e1bdcc3bf6b2cb4dde0d662c7126adc6e49a13e1da",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+  "order": 12225
+ },
+ {
+  "file": "phishing_pot/email/sample-12226.eml",
+  "sha256": "da247ec92d1fbf9fc27d7e2fb3ec17b49a9408fd1d7f998ae17985ac8f349b53",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:b837a198b30112292947a2142c635fa867f57969",
+  "order": 12226
+ },
+ {
+  "file": "phishing_pot/email/sample-12227.eml",
+  "sha256": "8010db020457bb1e124915b657abbab24a57094cd089a98ea0a7e7832312387b",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:6b72c22f5caf18074ec9532fb9951a417519cb17",
+  "order": 12227
+ },
+ {
+  "file": "phishing_pot/email/sample-12228.eml",
+  "sha256": "7d63a3718a22cc628759ce9e5fc3e2086c6843ed9209535602f193c5540abb7c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:67e5cc816c3fda60dc631fe0f0bd8deb9ebfc2fa",
+  "order": 12228
+ },
+ {
+  "file": "phishing_pot/email/sample-12229.eml",
+  "sha256": "a687ee2f22cb791868cafe482881dede8bf90c94882148053116e69b0101472a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:a57862c1e172e18583ad82d2e993b692974de7ca",
+  "order": 12229
+ },
+ {
+  "file": "phishing_pot/email/sample-12230.eml",
+  "sha256": "40cb0d906819b99333f8d3e5546c6b952e4c627bc86f4767f7695ef7ea7ae9e8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:05c4a4d70c970c7a06812dcc5c82a886841f2ffb",
+  "order": 12230
+ },
+ {
+  "file": "phishing_pot/email/sample-12231.eml",
+  "sha256": "7b6fbaefea6eadb7e42dfcf7154c887cbc92ce164d6f08eb879133823199894d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:05c4a4d70c970c7a06812dcc5c82a886841f2ffb",
+  "order": 12231
+ },
+ {
+  "file": "phishing_pot/email/sample-12232.eml",
+  "sha256": "7199822e44b1435a5904fd443dfbd5205fd1d027f73bfe1c12b23e067d499f25",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+  "order": 12232
+ },
+ {
+  "file": "phishing_pot/email/sample-12233.eml",
+  "sha256": "0c45e8920cd9e2861c84dcf1af1147e3be11371cc4857b0d7900135f38c948b6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+  "order": 12233
+ },
+ {
+  "file": "phishing_pot/email/sample-12234.eml",
+  "sha256": "1af00183811ef54adb4e9d781ed03cbcf9814683a0f626783e0573421bc551b7",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:6c8a0f9f74b5f5802cbbb3115cf2fba0055b51f8",
+  "order": 12234
+ },
+ {
+  "file": "phishing_pot/email/sample-12235.eml",
+  "sha256": "a3f78d6fbe81ede681ed5af9dd702298e021f085862828a1603a244f1b3fbf9a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:6c8a0f9f74b5f5802cbbb3115cf2fba0055b51f8",
+  "order": 12235
+ },
+ {
+  "file": "phishing_pot/email/sample-12236.eml",
+  "sha256": "e3abd03bf52c468de3dbf93aad5eef30f8f0f07e80700c1050cc56db6520dfd9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:03378ad873de1d1037fb1dfcfd4fab3bfbbc8275",
+  "order": 12236
+ },
+ {
+  "file": "phishing_pot/email/sample-12237.eml",
+  "sha256": "ebe14da770642d3420c0db21f6bbc2f89a9178d9e533dfca0d98bcb53ded2f0a",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:73509f10a44e60058caa4260fccb22a2b2dd59ee",
+  "order": 12237
+ },
+ {
+  "file": "phishing_pot/email/sample-12238.eml",
+  "sha256": "8919a6a9c21174b02bcbebd0c5e5bb1f210ec1151953b176d30986692503488f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:73509f10a44e60058caa4260fccb22a2b2dd59ee",
+  "order": 12238
+ },
+ {
+  "file": "phishing_pot/email/sample-12239.eml",
+  "sha256": "ef26e9bd91ffd78684134842ba4bea85fe8391dc187baa48175b2b0a952e97c2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12239
+ },
+ {
+  "file": "phishing_pot/email/sample-12240.eml",
+  "sha256": "e9d5544c1a91bc1b18622596aba3aef3204adab33717f33fd6863755a5ef38b5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12240
+ },
+ {
+  "file": "phishing_pot/email/sample-12241.eml",
+  "sha256": "8cc3175987859e5ec2acf348fe6ee7547755573f7fac0c3d423d38aa2ffff084",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12241
+ },
+ {
+  "file": "phishing_pot/email/sample-12242.eml",
+  "sha256": "f0b6c2c12387470ed237b2f7b4aac7b381ecf529215d1267733d1d98518eba27",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12242
+ },
+ {
+  "file": "phishing_pot/email/sample-12243.eml",
+  "sha256": "c600b8cb6b8c1e89681b9f0374eb430facbccbfce718b41f13c831e764a55c65",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12243
+ },
+ {
+  "file": "phishing_pot/email/sample-12244.eml",
+  "sha256": "e1ee62375704379897a46372de22fc11aa2c99cc4126aa31bb5bcbbf9b37964f",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+  "order": 12244
+ },
+ {
+  "file": "phishing_pot/email/sample-12245.eml",
+  "sha256": "776be17a129cdec518cafbe6f3846fbc0b5766954841753badf8dcbb2f559cee",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:4f8111d3c515147b331b6f6906a07276acd33a1a",
+  "order": 12245
+ },
+ {
+  "file": "phishing_pot/email/sample-12246.eml",
+  "sha256": "81eedc251f5947a285ee3d401cd25b6d8c90b853ae1c5ac0d452653ab5ff2305",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:07be0759c2e009943c19be746efbe3e55e828afe",
+  "order": 12246
+ },
+ {
+  "file": "phishing_pot/email/sample-12247.eml",
+  "sha256": "efff3267cac45623e9290410ef6a9821e49eb97da7cb1b456d81fcfe22f2e543",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:fca8f805e54dd5b686f42a5e71ce6ed7b2487ce3",
+  "order": 12247
+ },
+ {
+  "file": "phishing_pot/email/sample-12248.eml",
+  "sha256": "e156b63cef4c80c75f42a0c27849f15fdbc545555fb28ffc7479863faf8b66ed",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:e87b48dee37f9a59b5a4cfb3712d8a9fbc36caa6",
+  "order": 12248
+ },
+ {
+  "file": "phishing_pot/email/sample-12249.eml",
+  "sha256": "d4d8f10963a13dd6dfd6665cfb550b412bcba660f773b016b967e3da999f21ef",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d528172fb0937e574146a2e84385ccbe50983049",
+  "order": 12249
+ },
+ {
+  "file": "phishing_pot/email/sample-12250.eml",
+  "sha256": "954996ade0a41d57f480a67d52d69c8deab37a65eb82876f6a11d8e7c7c19798",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:4b384ee249dbfde472d6be63952663ef6348dffc",
+  "order": 12250
+ },
+ {
+  "file": "phishing_pot/email/sample-12251.eml",
+  "sha256": "d120d23d4e2267b52a982c6579561e46f13345075afea78bd839ddfdb95820db",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3e81919d53132b66dace44cc645ef63f74b6d8e2",
+  "order": 12251
+ },
+ {
+  "file": "phishing_pot/email/sample-12252.eml",
+  "sha256": "843d22a8b1addf9d1afd60c39fbbc590a7ec8cce3eda13de3ecb07f98b22edb9",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d75a70749b1e53d94b2c5da433ce12c116901795",
+  "order": 12252
+ },
+ {
+  "file": "phishing_pot/email/sample-12253.eml",
+  "sha256": "ef3b471c1018b65d05dc8f4408d5a8d1ab5a0874b036d567cc3a312fdde602b3",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:d1d57c4773e47c433bf31920607b7ced460f050d",
+  "order": 12253
+ },
+ {
+  "file": "phishing_pot/email/sample-12254.eml",
+  "sha256": "b2abb2bca8d141600e458834294c9e6f380b53a0bc0b16ce6d75d692a4b02c36",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+  "order": 12254
+ },
+ {
+  "file": "phishing_pot/email/sample-12255.eml",
+  "sha256": "767a2ee5216e991fb448355aea92648ea35f61a57379825553f9c51ef58107db",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+  "order": 12255
+ },
+ {
+  "file": "phishing_pot/email/sample-12256.eml",
+  "sha256": "a1248482683dc182324627cc96b3d1926e577d121660d4e021e7d4bba5b808e5",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+  "order": 12256
+ },
+ {
+  "file": "phishing_pot/email/sample-12257.eml",
+  "sha256": "72300e19bacdf34ecbf4c7d83a3d64c5976eba6b0af843d0bfe7ca52e3360ea8",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:4252bad3835076e22b9d7db38830a837079bbcf8",
+  "order": 12257
+ },
+ {
+  "file": "phishing_pot/email/sample-12258.eml",
+  "sha256": "4fdddf0af699dcbc5894f75f58eb8758274acca4a7ec98d23042e56b10838610",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:375830077b7d0ddf22710adb1100a9756b5c3d74",
+  "order": 12258
+ },
+ {
+  "file": "phishing_pot/email/sample-12259.eml",
+  "sha256": "aede0fbb6380a0390a295a85bcbdfe1d85a1b37615a843e6ea446bc1833119ce",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12259
+ },
+ {
+  "file": "phishing_pot/email/sample-12260.eml",
+  "sha256": "f38981788e1578e27f60e6167668cf8207a722a9907a1330421f397b659ca1a4",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12260
+ },
+ {
+  "file": "phishing_pot/email/sample-12261.eml",
+  "sha256": "5d606b1fc441ae07739d798a888e5b0f6e2236c3037a2af9adec1fc5ab9dfa3d",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12261
+ },
+ {
+  "file": "phishing_pot/email/sample-12262.eml",
+  "sha256": "266a7051f30d5e5793275015fe290663461ce287b501931b5c6976ba0d5276ae",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12262
+ },
+ {
+  "file": "phishing_pot/email/sample-12263.eml",
+  "sha256": "60817ce0031e1ada5f1630e30b25b2a865884c207dfa9bcac839581809398c19",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12263
+ },
+ {
+  "file": "phishing_pot/email/sample-12264.eml",
+  "sha256": "e3204c94e2f76d60f35092283da5b1579b3d6eee1da11e56db55ac38298f7051",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+  "order": 12264
+ },
+ {
+  "file": "phishing_pot/email/sample-12265.eml",
+  "sha256": "db44a82b69c07086e2bc9a7d0bfa4975cf778d8855fd8738c76be636dc7969a6",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:5c9a8001c5a300bbf5b67dddc48d307662acdd53",
+  "order": 12265
+ },
+ {
+  "file": "phishing_pot/email/sample-12266.eml",
+  "sha256": "5080c2f9e4a8d8ee1dba97aa054933483b1546ee5da7fad690aace98646eb7b2",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:f0e2f970012876fe7072a4633ee97981fbdd764d",
+  "order": 12266
+ },
+ {
+  "file": "phishing_pot/email/sample-12267.eml",
+  "sha256": "68f681dace35d68fc63808a47b55c9d0ffc6bd24f3f01931a1c9361e60f1030c",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:e8f6e0530353f3f3598bfe12665c3f0e824c42d2",
+  "order": 12267
+ },
+ {
+  "file": "phishing_pot/email/sample-12268.eml",
+  "sha256": "38c7bb619b11b4cbeb27070bbd296d29587b3b5bae867ed94983d2ad460ddbcc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:20e636e27478e360f55fbc39a465a698cd766c76",
+  "order": 12268
+ },
+ {
+  "file": "phishing_pot/email/sample-12269.eml",
+  "sha256": "02c6e20d430dca0d3bf3dc45289d52af9e627db3a9484a6b4ef28ae8046767cc",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:3b00dd1e62ef16b177ccb73c476ae82f3ef1a00c",
+  "order": 12269
+ },
+ {
+  "file": "phishing_pot/email/sample-12270.eml",
+  "sha256": "bc8f1c6ff1e43ab76bb41da8881e1a862d457e1b40811d860ce40e40231f499e",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:ca5fe7274fe55fd5eb4223c031bf60890f5439b3",
+  "order": 12270
+ },
+ {
+  "file": "phishing_pot/email/sample-12271.eml",
+  "sha256": "0da541c64ee0b08a3eda94d6a77dc1dca4781da6572a82a356700eca80f84e50",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:e8103e52cb40cc9673aabeeed0f358a1e94cf2ed",
+  "order": 12271
+ },
+ {
+  "file": "phishing_pot/email/sample-12272.eml",
+  "sha256": "5a62dce3ae3165e6bb2370248790badd07061760c6ce5db3674617f1f2a17989",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:9f4af3e284209a58bda6917d61da9b3efedf0e07",
+  "order": 12272
+ },
+ {
+  "file": "phishing_pot/email/sample-12273.eml",
+  "sha256": "cd309145bc685655c29630ed24dbe3bfb1744bed9d1e9e3b7e030dfb270ecc51",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:5282f4ef0cca22a82b22bc91349fb12351427afb",
+  "order": 12273
+ },
+ {
+  "file": "phishing_pot/email/sample-12274.eml",
+  "sha256": "5290ef28808855d6e434077e13eba093cdeb38792077ecff93200f5609cdd951",
+  "kind": "phishing",
+  "source": "phishing_pot",
+  "split": "test",
+  "group": "body:cc6ec1076111af15b1ca42a9409d92b08b2d8530",
+  "order": 12274
+ }
+]

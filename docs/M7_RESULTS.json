@@ -1,0 +1,2070 @@
+{
+ "split": "test",
+ "addendum": "",
+ "metrics": {
+  "phishing": 204,
+  "legit": 62,
+  "caught": 189,
+  "malicious": 181,
+  "legit_flagged": 3,
+  "legit_malicious": 0,
+  "legit_by_source": {
+   "gmail": {
+    "emails": 37,
+    "flagged": 0,
+    "malicious": 0
+   },
+   "university": {
+    "emails": 25,
+    "flagged": 3,
+    "malicious": 0
+   }
+  },
+  "campaigns": {
+   "groups": 109,
+   "mean_share_caught": 0.8761467889908257,
+   "all_caught": 95,
+   "some_caught": 1,
+   "none_caught": 13
+  },
+  "confusion": {
+   "phishing": {
+    "Suspicious": 8,
+    "Malicious": 181,
+    "No indicators found": 15
+   },
+   "legit": {
+    "No indicators found": 59,
+    "Suspicious": 3
+   }
+  },
+  "precision": {
+   "10%": {
+    "point": 0.6802507836990596,
+    "low": 0.42452443289410907,
+    "high": 0.8647759597270497
+   },
+   "30%": {
+    "point": 0.8913738019169329,
+    "low": 0.7399482315432664,
+    "high": 0.9610393886077833
+   },
+   "50%": {
+    "point": 0.9503649635036496,
+    "low": 0.8690969107426424,
+    "high": 0.9829223928223311
+   }
+  },
+  "targets": {
+   "caught_at_least_90%": true,
+   "no_legit_malicious": true,
+   "flagged_at_most_10%": true
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+   "dkimpy": "1.1.8",
+   "dnspython": "2.8.0",
+   "tldextract": "5.4.0",
+   "opencv-python-headless": "5.0.0.93",
+   "pillow": "12.3.0",
+   "pypdfium2": "5.14.0",
+   "truststore": "0.10.4"
+  },
+  "commit": "e3ca28638db09af2149090c28954f3ca06ba522b",
+  "tag_at_commit": "",
+  "tldextract_suffix_list": "bundled snapshot of tldextract 5.4.0"
+ },
+ "lookups": {
+  "recorded": "2026-10-22",
+  "offline": {
+   "phishing": 40,
+   "legit": 62,
+   "caught": 38,
+   "malicious": 37,
+   "legit_flagged": 3,
+   "legit_malicious": 0,
+   "legit_by_source": {
+    "gmail": {
+     "emails": 37,
+     "flagged": 0,
+     "malicious": 0
+    },
+    "university": {
+     "emails": 25,
+     "flagged": 3,
+     "malicious": 0
+    }
+   },
+   "campaigns": {
+    "groups": 40,
+    "mean_share_caught": 0.95,
+    "all_caught": 38,
+    "some_caught": 0,
+    "none_caught": 2
+   },
+   "confusion": {
+    "phishing": {
+     "Malicious": 37,
+     "No indicators found": 2,
+     "Suspicious": 1
+    },
+    "legit": {
+     "No indicators found": 59,
+     "Suspicious": 3
+    }
+   },
+   "precision": {
+    "10%": {
+     "point": 0.6856810244470314,
+     "low": 0.41112706290085854,
+     "high": 0.8684965297696341
+    },
+    "30%": {
+     "point": 0.8937784522003035,
+     "low": 0.7292100911519604,
+     "high": 0.9622270450049376
+    },
+    "50%": {
+     "point": 0.951534733441034,
+     "low": 0.8627021050959246,
+     "high": 0.9834544628126611
+    }
+   },
+   "targets": {
+    "caught_at_least_90%": true,
+    "no_legit_malicious": true,
+    "flagged_at_most_10%": true
+   }
+  },
+  "online": {
+   "phishing": 40,
+   "legit": 62,
+   "caught": 38,
+   "malicious": 37,
+   "legit_flagged": 3,
+   "legit_malicious": 0,
+   "legit_by_source": {
+    "gmail": {
+     "emails": 37,
+     "flagged": 0,
+     "malicious": 0
+    },
+    "university": {
+     "emails": 25,
+     "flagged": 3,
+     "malicious": 0
+    }
+   },
+   "campaigns": {
+    "groups": 40,
+    "mean_share_caught": 0.95,
+    "all_caught": 38,
+    "some_caught": 0,
+    "none_caught": 2
+   },
+   "confusion": {
+    "phishing": {
+     "Malicious": 37,
+     "No indicators found": 2,
+     "Suspicious": 1
+    },
+    "legit": {
+     "No indicators found": 59,
+     "Suspicious": 3
+    }
+   },
+   "precision": {
+    "10%": {
+     "point": 0.6856810244470314,
+     "low": 0.41112706290085854,
+     "high": 0.8684965297696341
+    },
+    "30%": {
+     "point": 0.8937784522003035,
+     "low": 0.7292100911519604,
+     "high": 0.9622270450049376
+    },
+    "50%": {
+     "point": 0.951534733441034,
+     "low": 0.8627021050959246,
+     "high": 0.9834544628126611
+    }
+   },
+   "targets": {
+    "caught_at_least_90%": true,
+    "no_legit_malicious": true,
+    "flagged_at_most_10%": true
+   }
+  },
+  "missing": 7,
+  "changed": []
+ },
+ "rows": [
+  {
+   "file": "phishing_pot/email/sample-6679.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Suspicious",
+   "score": 40,
+   "findings": "AUTH-001+20 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-6932.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:24eb114c54ce81caf5facfb3b2a290941158ad53",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 REPLY-001+20 LANG-001+20 REPLY-002+10 LINK-005+10 LINK-006+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-11955.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+   "verdict": "Malicious",
+   "score": 95,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-11988.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+   "verdict": "Malicious",
+   "score": 85,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12075.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:9ef343b3f2370dbd1119eef8c3a45f07477c057a",
+   "verdict": "Malicious",
+   "score": 70,
+   "findings": "AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12076.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12077.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12078.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12079.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12080.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12081.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12082.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12083.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12084.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12085.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12086.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12087.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3d02377a75965dde1b215234c5f8a13e391a34ac",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12088.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:e8732c4023d290cfc405499aae3ff39b2873fcd6",
+   "verdict": "Malicious",
+   "score": 95,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12089.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c4a1fc09ba9e094336563bec2f6e0a8a94ef4129",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12090.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:9571158666c047ee276163ee4fdce24768cdf390",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12091.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:9571158666c047ee276163ee4fdce24768cdf390",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12092.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d63fe5607ef5ecd9d9b3aeaca121575a2ee3b7b3",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12093.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d63fe5607ef5ecd9d9b3aeaca121575a2ee3b7b3",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12094.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:98927341b745b779bc8fd879de011ee93b8c8381",
+   "verdict": "Malicious",
+   "score": 125,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12095.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:47b2bc60ddeee94b1ae1a20896fa81801bb1a0e7",
+   "verdict": "Malicious",
+   "score": 95,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12096.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "subject:phishing pot complete our survey to win a riverbend ",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12097.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:816001ae12d4fe8513b7059571e502a670469511",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12098.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:6e3b2f19e5aba8964e6c1d1e9f73623fed50a439",
+   "verdict": "Malicious",
+   "score": 85,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12099.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:f226cd7a97e7e9f97ec222a7532b830abcb1854e",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12100.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d182e0e8b994b65f292a6fabaf4b169e3511e828",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12101.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:0e378e94c36e2a68c1d41ae4a3dbb0eb685c360e",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12102.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7916f99e9f8bf7c8e7e383959a45ea6365e5a157",
+   "verdict": "Malicious",
+   "score": 85,
+   "findings": "AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12103.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:bb3cdf866c742acbe945e863c5d83d08edc93e12",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "LINK-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12104.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12105.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12106.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12107.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12108.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12109.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12110.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12111.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12112.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12113.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12114.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12115.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12116.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12117.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12118.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12119.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12120.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12121.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12122.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12123.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12124.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12125.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12126.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12127.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12128.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12129.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a6aa8a07f68b95a7ee49cdb9f53401e79eb32e86",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12130.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:880d0eea44ed518f2b35b556aa8110958691ff95",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12131.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:880d0eea44ed518f2b35b556aa8110958691ff95",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12132.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12133.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12134.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7ddf2a819976f8acc022e114fe6ff3440a70ec78",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12135.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:f1562f65e3434b659e98e606f629907fcc684708",
+   "verdict": "Malicious",
+   "score": 125,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 COMBO-004+20 AUTH-002+15 TEXT-001+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12136.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "subject:\u00faltima advertencia almacenamiento lleno archivos eli",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12137.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:fe519c3161aa8d4379cce0a59689c7b2bf349e9d",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "LINK-002+35 SENDER-001+25 AUTH-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12138.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:89d276e535d4e8ef46708a4a8d4b526299315de6",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12139.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d0532fd72a251b5fe81ca61efd43a163cfb05a16",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12140.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a3db507b3ed1e91d5d2cc3f3135d1c5f7234bb63",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12141.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:557cd680bd00c07389adc85f509114fc7a271bdb",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12142.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:557cd680bd00c07389adc85f509114fc7a271bdb",
+   "verdict": "Malicious",
+   "score": 135,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12143.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:70508b3b727cd539d76b7e208e64b704937a55b1",
+   "verdict": "Suspicious",
+   "score": 40,
+   "findings": "SENDER-003+30 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12144.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d8d40b93275edae77b03ea90d81e0e7a94877c39",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12145.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:61119edd8164b74b2b443acc1e109f0ee85d6f72",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12146.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7d0351a8322265cd790d686b24e1447c210d4c56",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12147.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:5a4f64b882a525baf1c6806405e8d9e5d9bb9771",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12148.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12149.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2e4881271208e08229173e9234584d389fb7802f",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12150.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:51d0eaca2b8c34b7c953a4a3a218fbe67b891f2b",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12151.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:f4629e143e2b7b9dc9146dcf734c3fa3f149fc38",
+   "verdict": "Malicious",
+   "score": 70,
+   "findings": "AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12152.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:0a1821e0190425b49678c57b669b08a301c6859d",
+   "verdict": "Malicious",
+   "score": 95,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12153.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c0a3b580394dcccc20cfb1e7d56564242f14e2c7",
+   "verdict": "Malicious",
+   "score": 160,
+   "findings": "BRAND-001+35 SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 COMBO-003+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12154.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3e888efae9c18583f6df8094252f32b8eadb75d9",
+   "verdict": "Malicious",
+   "score": 155,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 TEXT-003+15 TIME-001+15 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12155.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:cd561c9a56c2d00b6f3508cf291db59b9df5020c",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12156.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:fca69539a8944fd0fd106ecbbbc0f746359212a8",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12157.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:36d024df3bcf133231a53ba809073a3931323123",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12158.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:5167bdcaf6e8e193404b8b60a11259eace2aa631",
+   "verdict": "Malicious",
+   "score": 185,
+   "findings": "BRAND-002+40 BRAND-001+10 SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12159.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:59dd5a2f619f7c2c86a04b0b6ad17b27493d30a7",
+   "verdict": "Malicious",
+   "score": 80,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12160.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12161.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12162.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12163.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12164.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12165.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12166.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12167.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12168.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12169.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12170.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12171.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12172.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12173.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12174.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12175.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12176.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12177.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12178.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:c1719e6517d11e6b95246ce9a1e15dd5322ed9cd",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12179.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8720b5d55c82211531d411eaf3f1e560b3a6d7fc",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12180.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:4a4e25d875d39dd8ad938e962ae2b0f6ecac25d6",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12181.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:fc4f633fdd48a04cf35953d83be5a18357eb5563",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-002+30 SENDER-003+20 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12182.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:4422d4a4950d02f487cf312adfbc07c1e5423607",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12183.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12184.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12185.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:51d109d8add80df74337a573df76929cac5edd2c",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12186.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:6169a080c2237109cac4be908ce518d9a6270a43",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12187.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d2c0def5996967c7603daedaa9fc557a51d26298",
+   "verdict": "Malicious",
+   "score": 195,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 COMBO-004+20 AUTH-002+15 TEXT-001+15 TIME-001+15 COMBO-003+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12188.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:abd1fad7420c6c0e44d928862007e424eea24e73",
+   "verdict": "Suspicious",
+   "score": 50,
+   "findings": "AUTH-001+20 REPLY-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12189.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:e6b066eefbbae271296980ee992d0194d6cdd149",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LINK-006+10 TEXT-002+10 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12190.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:b566fae22b50bed8d3480379dcf8a9425518aefb",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12191.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:bb70227268a9b47955ae771839d617ba92abcdb9",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12192.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:b7ec0556d1190afdbdf99a01b600f8d9a590eafd",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12193.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a1b0a339ae637f4d646b0e7cbf2ab23eeaaf2510",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12194.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:78d7c06b5d4b55161bd21a701569105f80ab9a29",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12195.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2c635ad686f1d7506a745eb34ccf81a7584e97e9",
+   "verdict": "Suspicious",
+   "score": 60,
+   "findings": "AUTH-001+20 AUTH-003+20 LANG-001+20"
+  },
+  {
+   "file": "phishing_pot/email/sample-12196.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "subject:silvercrest air fryer",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12197.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:caa782e92beb7eb56dbccbf4d9110dd93579b530",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12198.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:be0c5f539ad0871ff0e41424373a82cb0cd9ddac",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12199.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:68570259954ee5d706b4a937e40cf3f09eb0ade9",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12200.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:88922ca32943c9383a7dfe70e6063c8ae450502f",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12201.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:88922ca32943c9383a7dfe70e6063c8ae450502f",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12202.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:2d153871145f89da7f948afbc9bf34a18d0d9d90",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LINK-006+10 TEXT-002+10 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12203.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:71f86b049d1a50c652045f8cb9415fb0a7ce2073",
+   "verdict": "No indicators found",
+   "score": 20,
+   "findings": "LANG-001+20 TIME-001+15 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12204.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:252afa8b158b4837f17f97c3912ff2cc883a2431",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12205.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:252afa8b158b4837f17f97c3912ff2cc883a2431",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12206.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:9af945f83932c0a7e27eadcbbaea34743d19a84a",
+   "verdict": "Malicious",
+   "score": 160,
+   "findings": "BRAND-001+35 SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 COMBO-003+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12207.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12208.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12209.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12210.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12211.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12212.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:8b931b9aa666bf7a7911257dbc38219e4010efb0",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12213.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:05d153b83086847900aaa71b52661f3a1db6966f",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12214.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:24eb114c54ce81caf5facfb3b2a290941158ad53",
+   "verdict": "No indicators found",
+   "score": 20,
+   "findings": "LANG-001+20 TIME-001+15 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12215.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:7e2d775d7b6eab951e8c750abd4fb2de959d2bfb",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12216.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:07d522ef8f06e02a845b58954ea8572cf95dfcc2",
+   "verdict": "Suspicious",
+   "score": 60,
+   "findings": "AUTH-001+20 AUTH-003+20 LANG-001+20"
+  },
+  {
+   "file": "phishing_pot/email/sample-12217.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3c92b7f7e807991add27cf9058a36975cbe78647",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12218.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12219.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12220.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:aeb64863519b25ea3fca592f1631e39331a56200",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12221.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:600222b3eee9d031e258ac777f0dd54f979bb9ab",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12222.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3e350ece163bbc53ffef4c8f0d04914c67229a03",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12223.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12224.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12225.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:1043b608c82d23c460ea5710912cc411535fef50",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12226.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:b837a198b30112292947a2142c635fa867f57969",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12227.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:6b72c22f5caf18074ec9532fb9951a417519cb17",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12228.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:67e5cc816c3fda60dc631fe0f0bd8deb9ebfc2fa",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12229.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:a57862c1e172e18583ad82d2e993b692974de7ca",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12230.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:05c4a4d70c970c7a06812dcc5c82a886841f2ffb",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12231.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:05c4a4d70c970c7a06812dcc5c82a886841f2ffb",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12232.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+   "verdict": "Malicious",
+   "score": 145,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12233.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+   "verdict": "Malicious",
+   "score": 145,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12234.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:6c8a0f9f74b5f5802cbbb3115cf2fba0055b51f8",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12235.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:6c8a0f9f74b5f5802cbbb3115cf2fba0055b51f8",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12236.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:03378ad873de1d1037fb1dfcfd4fab3bfbbc8275",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12237.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:73509f10a44e60058caa4260fccb22a2b2dd59ee",
+   "verdict": "Suspicious",
+   "score": 60,
+   "findings": "BRAND-004+30 LINK-001+25 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12238.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:73509f10a44e60058caa4260fccb22a2b2dd59ee",
+   "verdict": "Suspicious",
+   "score": 60,
+   "findings": "BRAND-004+30 LINK-001+25 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12239.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12240.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12241.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12242.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12243.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12244.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:679b54d4ea184dfce3dc0fe278a440b44d6ca3a1",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12245.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:4f8111d3c515147b331b6f6906a07276acd33a1a",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12246.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:07be0759c2e009943c19be746efbe3e55e828afe",
+   "verdict": "Malicious",
+   "score": 70,
+   "findings": "AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12247.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:fca8f805e54dd5b686f42a5e71ce6ed7b2487ce3",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12248.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:e87b48dee37f9a59b5a4cfb3712d8a9fbc36caa6",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12249.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d528172fb0937e574146a2e84385ccbe50983049",
+   "verdict": "No indicators found",
+   "score": 5,
+   "findings": "LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12250.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:4b384ee249dbfde472d6be63952663ef6348dffc",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12251.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3e81919d53132b66dace44cc645ef63f74b6d8e2",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-002+15 TIME-001+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12252.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d75a70749b1e53d94b2c5da433ce12c116901795",
+   "verdict": "No indicators found",
+   "score": 0,
+   "findings": "TEXT-003+15 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12253.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:d1d57c4773e47c433bf31920607b7ced460f050d",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12254.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+   "verdict": "Malicious",
+   "score": 145,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12255.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+   "verdict": "Malicious",
+   "score": 120,
+   "findings": "SENDER-003+30 SENDER-001+20 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12256.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:660beab5be21cf731812bb148cb85fd6c7e7b73d",
+   "verdict": "Malicious",
+   "score": 145,
+   "findings": "BRAND-001+35 SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 COMBO-003+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12257.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:4252bad3835076e22b9d7db38830a837079bbcf8",
+   "verdict": "Malicious",
+   "score": 95,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12258.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:375830077b7d0ddf22710adb1100a9756b5c3d74",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12259.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12260.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12261.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12262.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12263.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12264.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3ed70858cb527ea2e9ecc40a53853605a25f451e",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12265.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:5c9a8001c5a300bbf5b67dddc48d307662acdd53",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12266.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:f0e2f970012876fe7072a4633ee97981fbdd764d",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12267.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:e8f6e0530353f3f3598bfe12665c3f0e824c42d2",
+   "verdict": "Malicious",
+   "score": 90,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "phishing_pot/email/sample-12268.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:20e636e27478e360f55fbc39a465a698cd766c76",
+   "verdict": "Malicious",
+   "score": 100,
+   "findings": "SENDER-002+30 AUTH-001+20 HIDDEN-001+20 AUTH-002+15 AUTH-004+5 TEXT-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12269.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:3b00dd1e62ef16b177ccb73c476ae82f3ef1a00c",
+   "verdict": "Malicious",
+   "score": 75,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12270.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:ca5fe7274fe55fd5eb4223c031bf60890f5439b3",
+   "verdict": "Suspicious",
+   "score": 50,
+   "findings": "REPLY-001+20 LANG-001+20 REPLY-002+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12271.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:e8103e52cb40cc9673aabeeed0f358a1e94cf2ed",
+   "verdict": "No indicators found",
+   "score": 25,
+   "findings": "HIDDEN-001+20 LANG-001+20 LEGIT-001-15"
+  },
+  {
+   "file": "phishing_pot/email/sample-12272.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:9f4af3e284209a58bda6917d61da9b3efedf0e07",
+   "verdict": "Malicious",
+   "score": 110,
+   "findings": "SENDER-001+25 AUTH-001+20 REPLY-001+20 LANG-001+20 TIME-001+15 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12273.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:5282f4ef0cca22a82b22bc91349fb12351427afb",
+   "verdict": "Malicious",
+   "score": 145,
+   "findings": "SENDER-003+30 SENDER-001+20 LINK-001+25 AUTH-001+20 REPLY-001+20 HIDDEN-001+20 AUTH-004+10"
+  },
+  {
+   "file": "phishing_pot/email/sample-12274.eml",
+   "kind": "phishing",
+   "source": "phishing_pot",
+   "group": "body:cc6ec1076111af15b1ca42a9409d92b08b2d8530",
+   "verdict": "Malicious",
+   "score": 80,
+   "findings": "AUTH-001+20 REPLY-001+20 LANG-001+20 AUTH-002+15 AUTH-004+5"
+  },
+  {
+   "file": "legit/university/uni-024.eml",
+   "kind": "legit",
+   "source": "university",
+   "group": "",
+   "verdict": "Suspicious",
+   "score": 60,
+   "findings": "BRAND-002+40 BRAND-001+10 LINK-006+10"
+  },
+  {
+   "file": "legit/university/uni-046.eml",
+   "kind": "legit",
+   "source": "university",
+   "group": "",
+   "verdict": "Suspicious",
+   "score": 35,
+   "findings": "BRAND-001+35"
+  },
+  {
+   "file": "legit/university/uni-054.eml",
+   "kind": "legit",
+   "source": "university",
+   "group": "",
+   "verdict": "Suspicious",
+   "score": 35,
+   "findings": "BRAND-001+35"
+  }
+ ]
+}
